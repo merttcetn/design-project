@@ -1,0 +1,2 @@
+- birden fazla kat geçileceği zaman asansörle kat 2'ye çık -> asansörle kat 3'e çık gibi gereksiz tekrarlayan direktifler olabilir
+- aynı kat içinde ilerlerken merdiven/asansörden geçme durumu olur mu? edge ağırlıklarını düzenle? 
