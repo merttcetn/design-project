@@ -176,13 +176,6 @@
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_26",
-            "kat": "3",
-            "bolum": "çocuk kalp damar",
-            "description": "Çocuk kalp damar kapı",
-            "diger_katlara_gecis": false
-        },
-        {
             "id": "KAT3_27",
             "kat": "3",
             "bolum": "çocuk kalp damar",
