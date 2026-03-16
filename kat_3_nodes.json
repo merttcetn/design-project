@@ -176,6 +176,13 @@
             "diger_katlara_gecis": false
         },
         {
+            "id": "KAT3_26",
+            "kat": "3",
+            "bolum": "doğum servisi",
+            "description": "Doğum servisi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
             "id": "KAT3_27",
             "kat": "3",
             "bolum": "çocuk kalp damar",
