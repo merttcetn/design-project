@@ -442,13 +442,6 @@
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_66",
-            "kat": "3",
-            "bolum": "giriş",
-            "description": "Giriş koridor",
-            "diger_katlara_gecis": false
-        },
-        {
             "id": "KAT3_67",
             "kat": "3",
             "bolum": "radyoloji",
@@ -471,13 +464,6 @@
         },
         {
             "id": "KAT3_70",
-            "kat": "3",
-            "bolum": "giriş",
-            "description": "Giriş koridor",
-            "diger_katlara_gecis": false
-        },
-        {
-            "id": "KAT3_71",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş koridor",
