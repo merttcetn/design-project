@@ -1,0 +1,1066 @@
+{
+    "edges": [
+        {
+            "from": "KAT3_1",
+            "to": "KAT3_3",
+            "weight": 1,
+            "instruction": "Soldaki kapıdan geçip koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_3",
+            "to": "KAT3_1",
+            "weight": 1,
+            "instruction": "Koridor sonundaki kapıdan geçip asansöre girin."
+        },
+        {
+            "from": "KAT3_2",
+            "to": "KAT3_3",
+            "weight": 1,
+            "instruction": "Soldaki kapıdan geçip koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_3",
+            "to": "KAT3_2",
+            "weight": 1,
+            "instruction": "Koridor sonundaki kapıdan geçip merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_3",
+            "to": "KAT3_4",
+            "weight": 1,
+            "instruction": "Koridor sonundaki kapıya ilerleyin."
+        },
+        {
+            "from": "KAT3_4",
+            "to": "KAT3_3",
+            "weight": 1,
+            "instruction": "Koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_4",
+            "to": "KAT3_5",
+            "weight": 1,
+            "instruction": "Koridor sonundaki kapıya ilerleyin."
+        },
+        {
+            "from": "KAT3_5",
+            "to": "KAT3_4",
+            "weight": 1,
+            "instruction": "Koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_5",
+            "to": "KAT3_6",
+            "weight": 1,
+            "instruction": "Asansöre binin."
+        },
+        {
+            "from": "KAT3_6",
+            "to": "KAT3_5",
+            "weight": 1,
+            "instruction": "Solunuzdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_5",
+            "to": "KAT3_7",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_7",
+            "to": "KAT3_5",
+            "weight": 1,
+            "instruction": "Sağınızdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_8",
+            "to": "KAT3_5",
+            "weight": 1,
+            "instruction": "Solunuzdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_5",
+            "to": "KAT3_8",
+            "weight": 1,
+            "instruction": "Asansöre binin."
+        },
+        {
+            "from": "KAT3_5",
+            "to": "KAT3_9",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_8",
+            "to": "KAT3_9",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_7",
+            "to": "KAT3_9",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_9",
+            "to": "KAT3_5",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_9",
+            "to": "KAT3_7",
+            "weight": 1,
+            "instruction": "Koridorun sonundaki merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_9",
+            "to": "KAT3_8",
+            "weight": 1,
+            "instruction": "Koridorun sonundaki asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_10",
+            "to": "KAT3_12",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_12",
+            "to": "KAT3_10",
+            "weight": 1,
+            "instruction": "Koridorun sonundaki asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_11",
+            "to": "KAT3_12",
+            "weight": 1,
+            "instruction": "Sağınızdaki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_12",
+            "to": "KAT3_11",
+            "weight": 1,
+            "instruction": "Koridorun sonundaki merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_13",
+            "to": "KAT3_15",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_15",
+            "to": "KAT3_13",
+            "weight": 1,
+            "instruction": "Kapıdan geçip merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_14",
+            "to": "KAT3_15",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_15",
+            "to": "KAT3_14",
+            "weight": 1,
+            "instruction": "Kapıdan geçip asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_15",
+            "to": "KAT3_18",
+            "weight": 1,
+            "instruction": "Koridor boyunca asansörlere kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_18",
+            "to": "KAT3_15",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_17",
+            "to": "KAT3_18",
+            "weight": 1,
+            "instruction": "Solunuzdan koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_18",
+            "to": "KAT3_17",
+            "weight": 1,
+            "instruction": "Solunuzdaki asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_24",
+            "to": "KAT3_18",
+            "weight": 1,
+            "instruction": "Koridor boyunca asansörlere kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_18",
+            "to": "KAT3_24",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_24",
+            "to": "KAT3_23",
+            "weight": 1,
+            "instruction": "Solunuzdaki asansöre kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_23",
+            "to": "KAT3_24",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_23",
+            "to": "KAT3_21",
+            "weight": 1,
+            "instruction": "Asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_21",
+            "to": "KAT3_23",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_22",
+            "to": "KAT3_23",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_23",
+            "to": "KAT3_22",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_20",
+            "to": "KAT3_23",
+            "weight": 1,
+            "instruction": "Sağınızdaki asansöre kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_23",
+            "to": "KAT3_20",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_20",
+            "to": "KAT3_19",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_19",
+            "to": "KAT3_20",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_12",
+            "to": "KAT3_16",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_16",
+            "to": "KAT3_12",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_19",
+            "to": "KAT3_16",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_16",
+            "to": "KAT3_19",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_19",
+            "to": "KAT3_28",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_28",
+            "to": "KAT3_19",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_25",
+            "to": "KAT3_28",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_28",
+            "to": "KAT3_25",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_25",
+            "to": "KAT3_27",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_27",
+            "to": "KAT3_25",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_29",
+            "to": "KAT3_28",
+            "weight": 1,
+            "instruction": "Sağınızdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_28",
+            "to": "KAT3_29",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_30",
+            "to": "KAT3_28",
+            "weight": 1,
+            "instruction": "Önünüzdeki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_28",
+            "to": "KAT3_30",
+            "weight": 1,
+            "instruction": "Asansöre binin."
+        },
+        {
+            "from": "KAT3_24",
+            "to": "KAT3_32",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_32",
+            "to": "KAT3_24",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_31",
+            "to": "KAT3_32",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_32",
+            "to": "KAT3_31",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_33",
+            "to": "KAT3_32",
+            "weight": 1,
+            "instruction": "Kapıdan geçin."
+        },
+        {
+            "from": "KAT3_32",
+            "to": "KAT3_33",
+            "weight": 1,
+            "instruction": "Kapıdan geçip asansöre binin."
+        },
+        {
+            "from": "KAT3_34",
+            "to": "KAT3_32",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora girin."
+        },
+        {
+            "from": "KAT3_32",
+            "to": "KAT3_34",
+            "weight": 1,
+            "instruction": "Kapıdan geçip merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_46",
+            "to": "KAT3_32",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_32",
+            "to": "KAT3_46",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_46",
+            "to": "KAT3_45",
+            "weight": 1,
+            "instruction": "Asansöre binin."
+        },
+        {
+            "from": "KAT3_45",
+            "to": "KAT3_46",
+            "weight": 1,
+            "instruction": "Koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_46",
+            "to": "KAT3_48",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_48",
+            "to": "KAT3_46",
+            "weight": 1,
+            "instruction": "Koridor kapısına ilerleyin."
+        },
+        {
+            "from": "KAT3_46",
+            "to": "KAT3_47",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_47",
+            "to": "KAT3_46",
+            "weight": 1,
+            "instruction": "Kapıdan geçin."
+        },
+        {
+            "from": "KAT3_49",
+            "to": "KAT3_47",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçin."
+        },
+        {
+            "from": "KAT3_47",
+            "to": "KAT3_49",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçin."
+        },
+        {
+            "from": "KAT3_43",
+            "to": "KAT3_47",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_47",
+            "to": "KAT3_43",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_43",
+            "to": "KAT3_26",
+            "weight": 1,
+            "instruction": "Koridorun sonundaki merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_26",
+            "to": "KAT3_43",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_43",
+            "to": "KAT3_42",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip hole doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_42",
+            "to": "KAT3_43",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip yol ayrımına doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_38",
+            "to": "KAT3_42",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_42",
+            "to": "KAT3_38",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_38",
+            "to": "KAT3_37",
+            "weight": 1,
+            "instruction": "Kapıdan geçip merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_37",
+            "to": "KAT3_38",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora girin."
+        },
+        {
+            "from": "KAT3_38",
+            "to": "KAT3_35",
+            "weight": 1,
+            "instruction": "Koridor kapılarından geçip koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_35",
+            "to": "KAT3_38",
+            "weight": 1,
+            "instruction": "Koridor kapılarından geçip koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_36",
+            "to": "KAT3_35",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip yol ayrımına doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_35",
+            "to": "KAT3_36",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip koridor sonuna kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_36",
+            "to": "KAT3_41",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip solunuzdaki kapıya kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_41",
+            "to": "KAT3_36",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip koridora çıkın."
+        },
+        {
+            "from": "KAT3_40",
+            "to": "KAT3_41",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora çıkın."
+        },
+        {
+            "from": "KAT3_41",
+            "to": "KAT3_40",
+            "weight": 1,
+            "instruction": "Kapıdan geçip merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_39",
+            "to": "KAT3_41",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora çıkın."
+        },
+        {
+            "from": "KAT3_41",
+            "to": "KAT3_39",
+            "weight": 1,
+            "instruction": "Kapıdan geçip asansöre binin."
+        },
+        {
+            "from": "KAT3_42",
+            "to": "KAT3_41",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçip sağınızdaki kapıya kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_41",
+            "to": "KAT3_42",
+            "weight": 1,
+            "instruction": "Kapıdan geçip yol ayrımına doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_42",
+            "to": "KAT3_26",
+            "weight": 1,
+            "instruction": "Kapıdan geçip merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_26",
+            "to": "KAT3_42",
+            "weight": 1,
+            "instruction": "Kapıdan geçip yol ayrımına doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_43",
+            "to": "KAT3_44",
+            "weight": 1,
+            "instruction": "Tüp geçide ilerleyin."
+        },
+        {
+            "from": "KAT3_44",
+            "to": "KAT3_43",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_61",
+            "to": "KAT3_44",
+            "weight": 1,
+            "instruction": "Tüp geçit boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_44",
+            "to": "KAT3_61",
+            "weight": 1,
+            "instruction": "Tüp geçit boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_61",
+            "to": "KAT3_63",
+            "weight": 1,
+            "instruction": "Tüp geçitten çıkın."
+        },
+        {
+            "from": "KAT3_63",
+            "to": "KAT3_61",
+            "weight": 1,
+            "instruction": "Tüp geçide girin."
+        },
+        {
+            "from": "KAT3_64",
+            "to": "KAT3_63",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_63",
+            "to": "KAT3_64",
+            "weight": 1,
+            "instruction": "Asansöre binin."
+        },
+        {
+            "from": "KAT3_64",
+            "to": "KAT3_65",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_65",
+            "to": "KAT3_64",
+            "weight": 1,
+            "instruction": "Asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_63",
+            "to": "KAT3_65",
+            "weight": 1,
+            "instruction": "Nefroloji girişine ilerleyin."
+        },
+        {
+            "from": "KAT3_65",
+            "to": "KAT3_63",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_60",
+            "to": "KAT3_63",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_63",
+            "to": "KAT3_60",
+            "weight": 1,
+            "instruction": "İki yanınızda kapı görene kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_60",
+            "to": "KAT3_59",
+            "weight": 1,
+            "instruction": "Morfoloji kapısından geçin."
+        },
+        {
+            "from": "KAT3_59",
+            "to": "KAT3_60",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_60",
+            "to": "KAT3_62",
+            "weight": 1,
+            "instruction": "Romatoloji kapısından geçin."
+        },
+        {
+            "from": "KAT3_62",
+            "to": "KAT3_60",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_60",
+            "to": "KAT3_56",
+            "weight": 1,
+            "instruction": "Hole doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_56",
+            "to": "KAT3_60",
+            "weight": 1,
+            "instruction": "İki yanınızda kapı görene kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_58",
+            "to": "KAT3_56",
+            "weight": 1,
+            "instruction": "Hole doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_56",
+            "to": "KAT3_58",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_55",
+            "to": "KAT3_56",
+            "weight": 1,
+            "instruction": "Hole doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_56",
+            "to": "KAT3_55",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_55",
+            "to": "KAT3_54",
+            "weight": 1,
+            "instruction": "Solunuzdaki merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_54",
+            "to": "KAT3_55",
+            "weight": 1,
+            "instruction": "Sağınızdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_53",
+            "to": "KAT3_54",
+            "weight": 1,
+            "instruction": "Merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_54",
+            "to": "KAT3_53",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridora çıkın."
+        },
+        {
+            "from": "KAT3_55",
+            "to": "KAT3_53",
+            "weight": 1,
+            "instruction": "Koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_53",
+            "to": "KAT3_55",
+            "weight": 1,
+            "instruction": "Koridor kapısından geçin."
+        },
+        {
+            "from": "KAT3_50",
+            "to": "KAT3_53",
+            "weight": 1,
+            "instruction": "Sağınızdaki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_53",
+            "to": "KAT3_50",
+            "weight": 1,
+            "instruction": "Girişin sağındaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_51",
+            "to": "KAT3_50",
+            "weight": 1,
+            "instruction": "Sağınızdaki kapıdan geçin."
+        },
+        {
+            "from": "KAT3_50",
+            "to": "KAT3_51",
+            "weight": 1,
+            "instruction": "Çıkış kapısından geçin."
+        },
+        {
+            "from": "KAT3_51",
+            "to": "KAT3_53",
+            "weight": 1,
+            "instruction": "Önünüzdeki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_53",
+            "to": "KAT3_51",
+            "weight": 1,
+            "instruction": "Çıkış kapısından geçin."
+        },
+        {
+            "from": "KAT3_51",
+            "to": "KAT3_67",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_67",
+            "to": "KAT3_51",
+            "weight": 1,
+            "instruction": "Çıkış kapısından geçin."
+        },
+        {
+            "from": "KAT3_69",
+            "to": "KAT3_67",
+            "weight": 1,
+            "instruction": "Radyoloji kapısından çıkın."
+        },
+        {
+            "from": "KAT3_67",
+            "to": "KAT3_69",
+            "weight": 1,
+            "instruction": "Radyoloji kapısından girin."
+        },
+        {
+            "from": "KAT3_70",
+            "to": "KAT3_67",
+            "weight": 1,
+            "instruction": "Radyoloji girişine doğru ilerleyin."
+        },
+        {
+            "from": "KAT3_67",
+            "to": "KAT3_70",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_70",
+            "to": "KAT3_74",
+            "weight": 1,
+            "instruction": "Basamakları inip koridora geçin."
+        },
+        {
+            "from": "KAT3_74",
+            "to": "KAT3_70",
+            "weight": 1,
+            "instruction": "Basamakları çıkıp koridora geçin."
+        },
+        {
+            "from": "KAT3_70",
+            "to": "KAT3_72",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_72",
+            "to": "KAT3_70",
+            "weight": 1,
+            "instruction": "Sağınızdaki koridora ilerleyin."
+        },
+        {
+            "from": "KAT3_74",
+            "to": "KAT3_72",
+            "weight": 1,
+            "instruction": "Basamakları çıkıp merdivene ilerleyin."
+        },
+        {
+            "from": "KAT3_72",
+            "to": "KAT3_74",
+            "weight": 1,
+            "instruction": "Basamakları inip koridora geçin."
+        },
+        {
+            "from": "KAT3_74",
+            "to": "KAT3_73",
+            "weight": 1,
+            "instruction": "Klinik Nütrisyon kapısından geçin."
+        },
+        {
+            "from": "KAT3_73",
+            "to": "KAT3_74",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora çıkın."
+        },
+        {
+            "from": "KAT3_74",
+            "to": "KAT3_75",
+            "weight": 1,
+            "instruction": "Spor Hekimliği kapısından geçin."
+        },
+        {
+            "from": "KAT3_75",
+            "to": "KAT3_74",
+            "weight": 1,
+            "instruction": "Kapıdan geçip koridora çıkın."
+        },
+        {
+            "from": "KAT3_74",
+            "to": "KAT3_76",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_76",
+            "to": "KAT3_74",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_77",
+            "to": "KAT3_76",
+            "weight": 1,
+            "instruction": "Kardiyoloji kapısından çıkın."
+        },
+        {
+            "from": "KAT3_76",
+            "to": "KAT3_77",
+            "weight": 1,
+            "instruction": "Kardiyoloji kapısından girin."
+        },
+        {
+            "from": "KAT3_77",
+            "to": "KAT3_81",
+            "weight": 1,
+            "instruction": "Sağa dönüp koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_80",
+            "to": "KAT3_81",
+            "weight": 1,
+            "instruction": "Kardiyoloji kapısından girin."
+        },
+        {
+            "from": "KAT3_81",
+            "to": "KAT3_80",
+            "weight": 1,
+            "instruction": "Kardiyoloji kapısından çıkın."
+        },
+        {
+            "from": "KAT3_80",
+            "to": "KAT3_76",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_76",
+            "to": "KAT3_80",
+            "weight": 1,
+            "instruction": "Koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_78",
+            "to": "KAT3_76",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_76",
+            "to": "KAT3_78",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_76",
+            "to": "KAT3_79",
+            "weight": 1,
+            "instruction": "Asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_79",
+            "to": "KAT3_76",
+            "weight": 1,
+            "instruction": "Solunuzdaki koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_80",
+            "to": "KAT3_78",
+            "weight": 1,
+            "instruction": "Asansöre ilerleyin."
+        },
+        {
+            "from": "KAT3_78",
+            "to": "KAT3_80",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_80",
+            "to": "KAT3_79",
+            "weight": 1,
+            "instruction": "Merdivenlere ilerleyin."
+        },
+        {
+            "from": "KAT3_79",
+            "to": "KAT3_80",
+            "weight": 1,
+            "instruction": "Koridora çıkın."
+        },
+        {
+            "from": "KAT3_81",
+            "to": "KAT3_83",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_83",
+            "to": "KAT3_81",
+            "weight": 1,
+            "instruction": "Sağa dönüp koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_85",
+            "to": "KAT3_83",
+            "weight": 1,
+            "instruction": "Yol ayrımına kadar ilerleyin."
+        },
+        {
+            "from": "KAT3_83",
+            "to": "KAT3_85",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_85",
+            "to": "KAT3_86",
+            "weight": 1,
+            "instruction": "Sağa dönüp koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_86",
+            "to": "KAT3_85",
+            "weight": 1,
+            "instruction": "Sola dönüp koridor boyunca ilerleyin."
+        },
+        {
+            "from": "KAT3_84",
+            "to": "KAT3_86",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        },
+        {
+            "from": "KAT3_86",
+            "to": "KAT3_84",
+            "weight": 1,
+            "instruction": "Koridorun sonuna ilerleyin."
+        }
+    ]
+}
