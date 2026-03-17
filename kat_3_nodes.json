@@ -393,13 +393,6 @@
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_57",
-            "kat": "3",
-            "bolum": "morfoloji",
-            "description": "Morfoloji kapı",
-            "diger_katlara_gecis": false
-        },
-        {
             "id": "KAT3_58",
             "kat": "3",
             "bolum": "morfoloji",
