@@ -449,13 +449,6 @@
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_68",
-            "kat": "3",
-            "bolum": "radyoloji",
-            "description": "Radyoloji koridor",
-            "diger_katlara_gecis": false
-        },
-        {
             "id": "KAT3_69",
             "kat": "3",
             "bolum": "radyoloji",
