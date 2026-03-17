@@ -533,13 +533,6 @@
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_82",
-            "kat": "3",
-            "bolum": "kardiyoloji",
-            "description": "Kardiyoloji koridor",
-            "diger_katlara_gecis": false
-        },
-        {
             "id": "KAT3_83",
             "kat": "3",
             "bolum": "kardiyoloji",
