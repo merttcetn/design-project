@@ -1,0 +1,406 @@
+{
+    "edges": [
+        {
+            "from": "KAT_1_1",
+            "to": "KAT_1_2",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_1",
+            "to": "KAT_1_3",
+            "weight": 1,
+            "instruction": "Ara merdivenden aşağı ilerleyin sonra yukarı çıkın."
+        },
+        {
+            "from": "KAT_1_3",
+            "to": "KAT_1_5",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_3",
+            "to": "KAT_1_4",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_4",
+            "to": "KAT_1_5",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_5",
+            "to": "KAT_1_6",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_6",
+            "to": "KAT_1_7",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_6",
+            "to": "KAT_1_8",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_8",
+            "to": "KAT_1_9",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_10",
+            "to": "KAT_1_11",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_11",
+            "to": "KAT_1_12",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_12",
+            "to": "KAT_1_13",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_12",
+            "to": "KAT_1_14",
+            "weight": 1,
+            "instruction": "Sola yönelin."
+        },
+        {
+            "from": "KAT_1_10",
+            "to": "KAT_1_14",
+            "weight": 1,
+            "instruction": "Sağa yönelin."
+        },
+        {
+            "from": "KAT_1_14",
+            "to": "KAT_1_15",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_15",
+            "to": "KAT_1_16",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_16",
+            "to": "KAT_1_17",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_17",
+            "to": "KAT_1_18",
+            "weight": 1,
+            "instruction": "Düz ilerleyin, merdivene yönelin."
+        },
+        {
+            "from": "KAT_1_15",
+            "to": "KAT_1_23",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_23",
+            "to": "KAT_1_24",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_24",
+            "to": "KAT_1_25",
+            "weight": 1,
+            "instruction": "Sola yönelin."
+        },
+        {
+            "from": "KAT_1_25",
+            "to": "KAT_1_26",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_26",
+            "to": "KAT_1_27",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_27",
+            "to": "KAT_1_23",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_17",
+            "to": "KAT_1_19",
+            "weight": 1,
+            "instruction": "Düz ilerleyin, merdivene yönelin."
+        },
+        {
+            "from": "KAT_1_17",
+            "to": "KAT_1_20",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_19",
+            "to": "KAT_1_20",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_20",
+            "to": "KAT_1_21",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_21",
+            "to": "KAT_1_22",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_16",
+            "to": "KAT_1_28",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_28",
+            "to": "KAT_1_29",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_28",
+            "to": "KAT_1_29_1",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_29",
+            "to": "KAT_1_30",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_30",
+            "to": "KAT_1_31",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_31",
+            "to": "KAT_1_32",
+            "weight": 1,
+            "instruction": "Asansore ilerleyin."
+        },
+        {
+            "from": "KAT_1_31",
+            "to": "KAT_1_33",
+            "weight": 1,
+            "instruction": "Merdivene ilerleyin."
+        },
+        {
+            "from": "KAT_1_31",
+            "to": "KAT_1_34",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_34",
+            "to": "KAT_1_35",
+            "weight": 1,
+            "instruction": "Asansore ilerleyin."
+        },
+        {
+            "from": "KAT_1_34",
+            "to": "KAT_1_36",
+            "weight": 1,
+            "instruction": "Merdivene ilerleyin."
+        },
+        {
+            "from": "KAT_1_34",
+            "to": "KAT_1_37",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_37",
+            "to": "KAT_1_38",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_38",
+            "to": "KAT_1_40",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_39",
+            "to": "KAT_1_40",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_40",
+            "to": "KAT_1_41",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_41",
+            "to": "KAT_1_42",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_42",
+            "to": "KAT_1_43",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_30",
+            "to": "KAT_1_34",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_44",
+            "to": "KAT_1_37",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_44",
+            "to": "KAT_1_45",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_45",
+            "to": "KAT_1_46",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_46",
+            "to": "KAT_1_47",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_47",
+            "to": "KAT_1_48",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_45",
+            "to": "KAT_1_48",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_48",
+            "to": "KAT_1_49",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_49",
+            "to": "KAT_1_50",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_51",
+            "to": "KAT_1_52",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_52",
+            "to": "KAT_1_29",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_52",
+            "to": "KAT_1_53",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_53",
+            "to": "KAT_1_54",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_53",
+            "to": "KAT_1_55",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_55",
+            "to": "KAT_1_56",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_57",
+            "to": "KAT_1_58",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_58",
+            "to": "KAT_1_59",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_59",
+            "to": "KAT_1_60",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_61",
+            "to": "KAT_1_62",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_62",
+            "to": "KAT_1_63",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "KAT_1_62",
+            "to": "KAT_1_64",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        }
+    ]
+}
