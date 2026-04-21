@@ -1,0 +1,509 @@
+{
+    "nodes": [
+        {
+            "id": "KAT_4_1",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_2",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_3",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi giris"
+        },
+        {
+            "id": "KAT_4_4",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_5",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi giris"
+        },
+        {
+            "id": "KAT_4_6",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_7",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_8",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi giris"
+        },
+        {
+            "id": "KAT_4_9",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_10",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi giris"
+        },
+        {
+            "id": "KAT_4_11",
+            "kat": "4",
+            "bolum": " cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_12",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon giris"
+        },
+        {
+            "id": "KAT_4_13",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon arka koridor"
+        },
+        {
+            "id": "KAT_4_14",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon ön koridor"
+        },
+        {
+            "id": "KAT_4_15",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon ön koridor"
+        },
+        {
+            "id": "KAT_4_16",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon ön koridor"
+        },
+        {
+            "id": "KAT_4_17",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon arka koridor"
+        },
+        {
+            "id": "KAT_4_18",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon arka koridor"
+        },
+        {
+            "id": "KAT_4_19",
+            "kat": "4",
+            "bolum": "enfeksiyon",
+            "description": "enfeksiyon merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_20",
+            "kat": "4",
+            "bolum": "cocuk servis",
+            "description": "cocuk servisi giris"
+        },
+        {
+            "id": "KAT_4_21",
+            "kat": "4",
+            "bolum": "cocuk servis",
+            "description": "cocuk servisi asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_22",
+            "kat": "4",
+            "bolum": "cocuk servis",
+            "description": "cocuk ruh sagligi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_23",
+            "kat": "4",
+            "bolum": "cocuk servis",
+            "description": "cocuk servisi koridor"
+        },
+        {
+            "id": "KAT_4_24",
+            "kat": "4",
+            "bolum": "cocuk servis",
+            "description": "cocuk servisi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_25",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_26",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_27",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor giris"
+        },
+        {
+            "id": "KAT_4_28",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_29",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_30",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_31",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar giris"
+        },
+        {
+            "id": "KAT_4_32",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_33",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_34",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar koridor"
+        },
+        {
+            "id": "KAT_4_35",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar koridor"
+        },
+        {
+            "id": "KAT_4_36",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar koridor"
+        },
+        {
+            "id": "KAT_4_37",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar koridor"
+        },
+        {
+            "id": "KAT_4_38",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji giris"
+        },
+        {
+            "id": "KAT_4_39",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_40",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_41",
+            "kat": "4",
+            "bolum": "kalp damar",
+            "description": "kalp damar koridor"
+        },
+        {
+            "id": "KAT_4_42",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji giris"
+        },
+        {
+            "id": "KAT_4_43",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_44",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_45",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji koridor"
+        },
+        {
+            "id": "KAT_4_46",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji koridor"
+        },
+        {
+            "id": "KAT_4_47",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji koridor"
+        },
+        {
+            "id": "KAT_4_48",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_49",
+            "kat": "4",
+            "bolum": "nöroloji",
+            "description": "nöroloji koridor"
+        },
+        {
+            "id": "KAT_4_50",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_51",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_52",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_53",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_54",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji giris"
+        },
+        {
+            "id": "KAT_4_55",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_56",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_57",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_58",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_59",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_60",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_61",
+            "kat": "4",
+            "bolum": "üroloji",
+            "description": "Üroloji koridor"
+        },
+        {
+            "id": "KAT_4_62",
+            "kat": "4",
+            "bolum": "romatoloji",
+            "description": "romatoloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_63",
+            "kat": "4",
+            "bolum": "romatoloji",
+            "description": "romatoloji koridor"
+        },
+        {
+            "id": "KAT_4_64",
+            "kat": "4",
+            "bolum": "romatoloji",
+            "description": "romatoloji asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_65",
+            "kat": "4",
+            "bolum": "romatoloji",
+            "description": "romatoloji koridor"
+        },
+        {
+            "id": "KAT_4_66",
+            "kat": "4",
+            "bolum": "enfeksiyon hastalıkları",
+            "description": "enfeskiyon hastalıkları koridor"
+        },
+        {
+            "id": "KAT_4_67",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_68",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_4_69",
+            "kat": "4",
+           "bolum": "cocuk ruh sagligi-psikiyatri",
+            "description": "cocuk ruh sagligi-psikiyatri giris"
+        },
+        {
+            "id": "KAT_4_70",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_71",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_72",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_73",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_74",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_75",
+            "kat": "4",
+            "bolum": "psikiyatri",
+            "description": "Psikiyatri koridor"
+        },
+        {
+            "id": "KAT_4_76",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_77",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_78",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_79",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        },
+        {
+            "id": "KAT_4_80",
+            "kat": "4",
+            "bolum": "cocuk ruh sagligi",
+            "description": "cocuk ruh sagligi koridor"
+        }
+    ]
+}
