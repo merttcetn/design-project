@@ -400,7 +400,8 @@
         "id": "ZEMIN_KAT_65",
         "kat": "zemin",
         "bolum": "genel",
-        "description": "koridor"
+        "description": "merdiven",
+        "diger_katlara_gecis": true
     },
     {
         "id": "ZEMIN_KAT_66",

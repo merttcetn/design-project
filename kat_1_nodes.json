@@ -177,7 +177,8 @@
             "id": "KAT_1_28",
             "kat": "1",
             "bolum": "beyin cerrahi",
-            "description": "Beyin Cerrahi koridor"
+            "description": "Beyin Cerrahi koridor",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_29",
@@ -189,8 +190,7 @@
             "id": "KAT_1_29_1",
             "kat": "1",
             "bolum": "beyin cerrahi",
-            "description": "Beyin Cerrahi merdiven",
-            "diger_katlara_gecis": true
+            "description": "Beyin Cerrahi merdiven"
         },
         {
             "id": "KAT_1_30",
@@ -327,8 +327,7 @@
             "id": "KAT_1_51",
             "kat": "1",
             "bolum": "plastik cerrahi",
-            "description": "Plastik Cerrahi asansor",
-            "diger_katlara_gecis": true
+            "description": "Plastik Cerrahi asansor"
         },
         {
             "id": "KAT_1_52",
