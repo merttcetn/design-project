@@ -24,7 +24,7 @@
             "id": "KAT_1_4",
             "kat": "1",
             "bolum": "kardiyoloji",
-            "description": "Kardiyoloji asansor",
+            "description": "Kardiyoloji asansör",
             "diger_katlara_gecis": true
 
         },
@@ -44,7 +44,7 @@
             "id": "KAT_1_7",
             "kat": "1",
             "bolum": "kardiyoloji",
-            "description": "Kardiyoloji asansor",
+            "description": "Kardiyoloji asansör",
             "diger_katlara_gecis": true
         },
         {
@@ -208,7 +208,7 @@
             "id": "KAT_1_32",
             "kat": "1",
             "bolum": "beyin cerrahi",
-            "description": "Beyin Cerrahi asansor",
+            "description": "Beyin Cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
@@ -228,7 +228,7 @@
             "id": "KAT_1_35",
             "kat": "1",
             "bolum": "beyin cerrahi ad",
-            "description": "Beyin Cerrahi AD asansor",
+            "description": "Beyin Cerrahi AD asansör",
             "diger_katlara_gecis": true
         },
         {
@@ -301,33 +301,34 @@
         {
             "id": "KAT_1_47",
             "kat": "1",
-            "bolum": "gogus hastaliklari",
-            "description": "gogus hastaliklari koridor"
+            "bolum": "göğüs hastalıkları",
+            "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_48",
             "kat": "1",
-            "bolum": "gogus hastaliklari",
-            "description": "gogus hastaliklari koridor"
+            "bolum": "göğüs hastalıkları",
+            "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_49",
             "kat": "1",
-            "bolum": "gogus hastaliklari",
-            "description": "gogus hastaliklari koridor"
+            "bolum": "göğüs hastalıkları",
+            "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_50",
             "kat": "1",
-            "bolum": "gogus hastaliklari",
-            "description": "gogus hastaliklari merdiven",
+            "bolum": "göğüs hastalıkları",
+            "description": "Göğüs Hastalıkları merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_51",
             "kat": "1",
             "bolum": "plastik cerrahi",
-            "description": "Plastik Cerrahi asansor"
+            "description": "Plastik Cerrahi asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_52",
@@ -363,59 +364,59 @@
         {
             "id": "KAT_1_57",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane merdiven",
+            "bolum": "doğumhane",
+            "description": "doğumhane merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_57_1",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane asansor",
+            "bolum": "doğumhane",
+            "description": "doğumhane asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_58",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_59",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_60",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_61",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane merdiven",
+            "bolum": "doğumhane",
+            "description": "doğumhane merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_62",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_63",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_64",
             "kat": "1",
-            "bolum": "dogumhane",
-            "description": "dogumhane koridor"
+            "bolum": "doğumhane",
+            "description": "doğumhane koridor"
         }
     ]
 }
