@@ -7,8 +7,8 @@ def load_graph(graph_path):
         return json.load(f)
 
 
-def get_preference_cost(use_elevator=True):
-    if use_elevator:
+def get_preference_cost(avoid_stairs=True):
+    if avoid_stairs:
         return {
             "corridor": 1,
             "elevator": 1,
@@ -72,16 +72,32 @@ def get_instructions(graph, path):
     return instructions
 
 
-def find_route(graph_path, start, goal, use_elevator=True):
+def find_route(graph_path, start, goal, avoid_stairs=True):
     graph = load_graph(graph_path)
 
-    preference_cost = get_preference_cost(use_elevator)
+    all_nodes = set(graph.keys())
+    for edges in graph.values():
+        for edge in edges:
+            all_nodes.add(edge["to"])
+
+    if start not in all_nodes:
+        print(f"Hata: '{start}' düğümü grafta bulunamadı.")
+        return None
+    if goal not in all_nodes:
+        print(f"Hata: '{goal}' düğümü grafta bulunamadı.")
+        return None
+
+    if start == goal:
+        print("Zaten hedef konumdasınız.")
+        return {"path": [start], "instructions": []}
+
+    preference_cost = get_preference_cost(avoid_stairs)
 
     path = dijkstra(graph, start, goal, preference_cost)
 
     if not path:
         print("No path found")
-        return
+        return None
 
     instructions = get_instructions(graph, path)
 
@@ -90,7 +106,9 @@ def find_route(graph_path, start, goal, use_elevator=True):
     for i, instr in enumerate(instructions, 1):
         print(f"{i}- {instr}")
 
+    return {"path": path, "instructions": instructions}
+
 
 # Example usage
 if __name__ == "__main__":
-    find_route("graph.json", "KAT3_2", "KAT1_8", use_elevator=True)
+    find_route("graph.json", "KAT3_2", "KAT1_8", avoid_stairs=True)

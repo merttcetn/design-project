@@ -27,10 +27,11 @@ def build_and_save_adjacency(json_paths, output_path):
 if __name__ == "__main__":
     build_and_save_adjacency(
         [
-            # assume kat1 and kat3 are adjacent for this example
-            "kat_3_edges.json",
-            "kat_1_edges.json",
-            "vertical_edges.json"
+            "edges/kat_1_edges.json",
+            "edges/kat_2_edges.json",
+            "edges/kat_3_edges.json",
+            "edges/zemin_kat_edges.json",
+            "edges/vertical_edges.json"
         ],
         "graph.json"
     )
