@@ -1,0 +1,23 @@
+Mevcut konum: {current_location}
+
+Ham rota adımları:
+{steps_text}
+
+Görev:
+Ham adımları ziyaretçiye okunacak şekilde sadeleştir ve gerekirse ardışık tekrarları birleştir. Rota sırasını koru.
+
+Örnek dönüşüm:
+Ham:
+1. Düz ilerleyin.
+2. Düz ilerleyin.
+3. Sağa yönelin.
+4. Koridordan devam edin.
+5. Koridordan devam edin.
+6. Asansöre ilerleyin.
+7. Asansör ile 1. kata çıkın.
+
+Beklenen JSON:
+{{"steps": ["Koridor boyunca düz ilerleyin.", "Sağa yönelip koridordan devam edin.", "Asansöre ilerleyin ve 1. kata çıkın."]}}
+
+Şimdi yalnızca aşağıdaki şemaya uyan JSON object döndür:
+{{"steps": ["..."]}}

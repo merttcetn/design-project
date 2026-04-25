@@ -159,13 +159,18 @@ Her adım tamamlandığında "Tamamlandı" butonuna basılır, bir sonraki edge'
 **State (frontend):**
 ```js
 {
-  steps: [
-    { instruction: "Düz ilerleyin.", description: "Koridorda düz devam edin, yolun sonuna kadar ilerleyin.", type: "corridor", nodeId: "ZEMIN_KAT_5" },
-    { instruction: "Asansöre girin.", description: "Sağ tarafınızda asansörü göreceksiniz. Asansöre binip 1. kata çıkın.", type: "elevator", nodeId: "ZEMIN_KAT_58" },
+  path: ["ZEMIN_KAT_1", "ZEMIN_KAT_2", "KAT_1_6"],
+  instructions: [
+    { index: 1, from_node: "ZEMIN_KAT_1", to_node: "ZEMIN_KAT_2", instruction: "Düz ilerleyin.", type: "corridor" },
+    { index: 2, from_node: "ZEMIN_KAT_2", to_node: "KAT_1_6", instruction: "Asansör ile 1. kata çıkın.", type: "elevator" },
     ...
   ],
+  enhancedInstructions: [
+    "Koridorda düz devam edin.",
+    "Asansöre binip 1. kata çıkın."
+  ],
   currentIndex: 0,
-  totalSteps: 7
+  totalSteps: 2
 }
 ```
 
@@ -173,7 +178,7 @@ Her adım tamamlandığında "Tamamlandı" butonuna basılır, bir sonraki edge'
 
 ## API Endpoint
 
-**Backend: Flask veya FastAPI**
+**Backend: FastAPI**
 
 ```
 POST /api/route
@@ -181,10 +186,18 @@ Body: { "start": "ZEMIN_KAT_1", "goal": "KAT_1_6", "avoid_stairs": true }
 
 Response:
 {
-  "steps": [
-    { "nodeId": "ZEMIN_KAT_5", "instruction": "Düz ilerleyin.", "type": "corridor" },
-    { "nodeId": "ZEMIN_KAT_58", "instruction": "Asansöre girin.", "type": "elevator" },
-    ...
+  "path": ["ZEMIN_KAT_1", "ZEMIN_KAT_2", "KAT_1_6"],
+  "instructions": [
+    {
+      "index": 1,
+      "from_node": "ZEMIN_KAT_1",
+      "to_node": "ZEMIN_KAT_2",
+      "instruction": "Düz ilerleyin.",
+      "type": "corridor"
+    }
+  ],
+  "enhanced_instructions": [
+    "Koridorda düz devam edin."
   ]
 }
 ```
@@ -200,14 +213,14 @@ Response:
 | Animasyon   | React Native Reanimated (kart geçişleri)   |
 | UI Bileşen  | React Native core + Expo Vector Icons      |
 | HTTP        | fetch / axios                              |
-| Backend     | Flask veya FastAPI                         |
+| Backend     | FastAPI                                    |
 | API         | REST (JSON)                                |
 
 ---
 
 ## LLM Destekli Adım Açıklaması
 
-Her navigasyon adımında, ham `instruction` metni bir LLM'e gönderilir ve kullanıcıya doğal, konuşma diliyle açıklanır.
+Navigasyon rotasının ham `instruction` listesi MiniMax-M2.7'ye tek istekte gönderilir ve kullanıcıya doğal, konuşma diliyle açıklanacak `enhanced_instructions` listesi üretilir.
 
 ### Akış
 
@@ -231,37 +244,27 @@ Tüm adımlar tek bir LLM çağrısında gönderilir. Bu sayede:
 - **Bağlam**: LLM tüm rotayı görebildiği için adımlar arası tutarlı ve bağlamsal açıklamalar üretir
 - **Maliyet**: Tek istek, daha az token overhead
 
-LLM'e gönderilen system prompt:
+LLM'e gönderilen system prompt özeti:
 
 ```
-Sen bir hastane içi navigasyon asistanısın. Kullanıcıya yol tarifi 
-adımlarını sıcak, anlaşılır ve kısa bir dille açıklıyorsun.
+Sen bir hastane iç mekan navigasyon asistanısın.
+Ham rota adımlarını ziyaretçinin anlayacağı kısa ve güvenli Türkçe yönlendirmelere dönüştür.
 
-Sana bir rota verilecek. Her adım için doğal dilde bir açıklama üret.
-
-Kurallar:
-- Türkçe konuş
-- Her açıklamayı 1-2 cümle ile sınırla
-- Gerekirse yön belirten ipuçları ekle (sağ, sol, düz)
-- Asansör/merdiven adımlarında kat değişimini vurgula
-- Engelli erişimi varsa bunu belirt
-- Adımlar arası tutarlı bir dil kullan
-- JSON dizisi olarak döndür: [{"index": 1, "description": "..."}, ...]
+Çıktı sözleşmesi:
+- Yalnızca geçerli JSON object döndür
+- Şema: {"steps": ["adım 1", "adım 2"]}
+- Markdown, kod bloğu, düşünme süreci veya açıklama ekleme
 ```
 
 User prompt:
 
 ```
-Başlangıç: {{start_name}}
-Hedef: {{goal_name}}
+Mevcut konum: {{current_location}}
 
-Rota adımları:
-{{#each steps}}
-  {{index}}. [{{type}}] "{{instruction}}" (Kat: {{floor}})
-{{/each}}
+Ham rota adımları:
+{{steps_text}}
 
-Her adım için kullanıcıya gösterilecek doğal dil açıklamasını üret.
-JSON dizisi olarak döndür.
+Ham adımları ziyaretçiye okunacak şekilde sadeleştir ve yalnızca {"steps": ["..."]} JSON object'i döndür.
 ```
 
 ### Örnek Dönüşüm
@@ -280,26 +283,25 @@ Body: { "start": "ZEMIN_KAT_1", "goal": "KAT_1_6", "avoid_stairs": true }
 
 Response:
 {
-  "steps": [
+  "path": ["ZEMIN_KAT_1", "...", "KAT_1_6"],
+  "instructions": [
     {
-      "nodeId": "ZEMIN_KAT_5",
+      "index": 1,
+      "from_node": "ZEMIN_KAT_1",
+      "to_node": "ZEMIN_KAT_2",
       "instruction": "Düz ilerleyin.",
-      "description": "Koridorda düz devam edin, yolun sonuna kadar ilerleyin.",
       "type": "corridor"
-    },
-    {
-      "nodeId": "ZEMIN_KAT_58",
-      "instruction": "Asansöre girin.",
-      "description": "Sağ tarafınızda asansörü göreceksiniz. Asansöre binip 1. kata çıkın.",
-      "type": "elevator"
-    },
-    ...
+    }
+  ],
+  "enhanced_instructions": [
+    "Koridorda düz devam edin.",
+    "Asansöre ilerleyin ve 1. kata çıkın."
   ]
 }
 ```
 
 - `instruction`: orijinal ham talimat (kısa, teknik)
-- `description`: LLM tarafından üretilen doğal dil açıklaması (kullanıcıya gösterilen)
+- `enhanced_instructions`: LLM tarafından üretilen doğal dil açıklama listesi
 
 ### UI Yansıması (Navigasyon Kartı)
 
@@ -318,7 +320,7 @@ Response:
 ╚═════════════════════════╝
 ```
 
-Kartta `description` (LLM açıklaması) gösterilir, `instruction` ise dahili olarak tutulur.
+Kartta ilgili `enhanced_instructions` metni gösterilir, `instruction` ise dahili/teknik ham talimat olarak tutulur.
 
 ### Backend Implementasyon Notu
 
@@ -326,8 +328,8 @@ LLM çağrısı backend tarafında `/api/route` endpoint'inde yapılır:
 
 1. `find_route()` ile ham adımlar hesaplanır
 2. Tüm adımlar + başlangıç/hedef bilgisi tek bir prompt olarak LLM'e gönderilir
-3. LLM, JSON dizisi olarak tüm açıklamaları döner
-4. Backend, açıklamaları ilgili step'lere eşler ve response'u oluşturur
+3. LLM, `{"steps": ["..."]}` şemasında açıklama listesini döner
+4. Backend, `steps` listesini `enhanced_instructions` alanına koyar; parse veya model hatasında ham talimat fallback'i döner
 
 Opsiyonel: Sık kullanılan rotalar için LLM çıktısı cache'lenebilir (Redis / in-memory).
 
@@ -335,7 +337,7 @@ Opsiyonel: Sık kullanılan rotalar için LLM çıktısı cache'lenebilir (Redis
 
 | Katman   | Teknoloji                          |
 |----------|------------------------------------|
-| LLM      | Claude API / OpenAI API            |
+| LLM      | MiniMax-M2.7 (OpenAI-compatible API) |
 | Cache    | Redis veya in-memory (opsiyonel)   |
 
 ---

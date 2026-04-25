@@ -1,6 +1,16 @@
+import json
 import os
 import re
+from pathlib import Path
 from openai import AsyncOpenAI
+
+
+ROOT_DIR = Path(__file__).resolve().parent
+PROMPTS_DIR = ROOT_DIR / "prompts"
+
+
+def load_prompt_template(filename: str) -> str:
+    return (PROMPTS_DIR / filename).read_text(encoding="utf-8").strip()
 
 
 class LLMNavigationService:
@@ -9,54 +19,76 @@ class LLMNavigationService:
             api_key=api_key or os.getenv("MINIMAX_API_KEY"),
             base_url=base_url
         )
-        self.model = os.getenv("MINIMAX_MODEL", "MiniMax-M2.5")
+        self.model = os.getenv("MINIMAX_MODEL", "MiniMax-M2.7")
+        self.navigation_system_prompt = load_prompt_template("navigation_system.txt")
+        self.navigation_user_prompt = load_prompt_template("navigation_user.txt")
+        self.route_summary_system_prompt = load_prompt_template("route_summary_system.txt")
+        self.route_summary_user_prompt = load_prompt_template("route_summary_user.txt")
 
-    async def enhance_instructions(self, instructions: list[str], current_location: str) -> str:
-        """Verilen talimatları daha anlaşılır Türkçe metne dönüştürür."""
+    async def enhance_instructions(self, instructions: list[str], current_location: str) -> list[str]:
+        """Verilen talimatları daha anlaşılır Türkçe metne dönüştürüp liste olarak döndürür."""
         prompt = self._build_prompt(instructions, current_location)
 
         response = await self.client.chat.completions.create(
             model=self.model,
             temperature=0.1,
             messages=[
-                {"role": "system", "content": "Sen bir navigasyon asistanısın. Kullanıcıya verilecek talimatları net, anlaşılır ve adım adım Türkçe olarak sözlü yönlendirmeye dönüştür. Her zaman Türkçe konuş."},
+                {"role": "system", "content": self.navigation_system_prompt},
                 {"role": "user", "content": prompt}
             ]
         )
 
-        return self._strip_think_tags(response.choices[0].message.content)
+        raw = self._strip_think_tags(response.choices[0].message.content)
+        return self._parse_steps_json(raw)
 
     @staticmethod
     def _strip_think_tags(text: str) -> str:
         """MiniMax modelinin döndürdüğü <think>...</think> bloklarını temizler."""
         return re.sub(r"<think>.*?</think>\s*", "", text, flags=re.DOTALL).strip()
 
+    @staticmethod
+    def _parse_steps_json(text: str) -> list[str]:
+        """Model çıktısından JSON steps listesini parse eder.
+
+        Model bazen JSON'u markdown code block içinde dönebilir,
+        veya düz JSON olarak. Her iki durumu da handle eder.
+        """
+        # Markdown code block varsa içindekileri al
+        code_block = re.search(r"```(?:json)?\s*(.*?)```", text, re.DOTALL)
+        json_str = code_block.group(1).strip() if code_block else text.strip()
+
+        data = json.loads(json_str)
+        if not isinstance(data, dict):
+            raise ValueError("LLM response must be a JSON object.")
+
+        steps = data.get("steps")
+        if not isinstance(steps, list) or not all(isinstance(step, str) for step in steps):
+            raise ValueError("LLM response 'steps' must be a list of strings.")
+
+        return steps
+
     def _build_prompt(self, instructions: list[str], current_location: str) -> str:
         steps_text = "\n".join(f"{i+1}. {instr}" for i, instr in enumerate(instructions))
-        return f"""Mevcut konum: {current_location}
-
-Ham adımlar:
-{steps_text}
-
-Bu talimatları Türkçe olarak, navigasyon uygulamasında okunacak şekilde düzgün bir metne dönüştür. Kısa ve net olmalı. Sadece talimatları ver, başka bir şey ekleme."""
+        return self.navigation_user_prompt.format(
+            current_location=current_location,
+            steps_text=steps_text,
+        )
 
     async def generate_route_description(self, path: list[str], instructions: list[str]) -> str:
         """Rota için kısa bir özet ve genel yönergesi üretir."""
-        prompt = f"""Rota özeti:
-Başlangıç: {path[0]}
-Varış: {path[-1]}
-Adımlar: {len(path)}
-
-Talimatlar:
-{chr(10).join(f"{i+1}. {instr}" for i, instr in enumerate(instructions))}
-
-Bu rotayı kısaca özetle (2-3 cümle). Türkçe konuş."""
+        steps_text = "\n".join(f"{i+1}. {instr}" for i, instr in enumerate(instructions))
+        prompt = self.route_summary_user_prompt.format(
+            start=path[0],
+            goal=path[-1],
+            step_count=len(instructions),
+            steps_text=steps_text,
+        )
 
         response = await self.client.chat.completions.create(
             model=self.model,
             temperature=0.1,
             messages=[
-                {"role": "system", "content": "Sen bir navigasyon asistanısın. Rota özetlerini kısa ve net Türkçe cümlelerle yaz."},
+                {"role": "system", "content": self.route_summary_system_prompt},
                 {"role": "user", "content": prompt}
             ]
         )

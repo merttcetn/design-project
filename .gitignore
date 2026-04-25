@@ -1,12 +1,42 @@
 # Üretilen dosyalar
 graph.json
 
+# Ortam dosyaları
+.env
+.env.*
+!.env.example
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+ENV/
+
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Pytest cache
+# Test, lint ve coverage cache
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 
-.env
+# Paketleme/build çıktıları
+build/
+dist/
+*.egg-info/
+
+# Editor ve lokal araç ayarları
+.vscode/
+.idea/
+.cursor/
+.claude/
+
+# Sistem dosyaları ve loglar
+.DS_Store
+*.log
