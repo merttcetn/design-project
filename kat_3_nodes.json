@@ -1,560 +1,560 @@
 {
     "nodes": [
         {
-            "id": "KAT3_1",
+            "id": "KAT_3_1",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_2",
+            "id": "KAT_3_2",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_3",
+            "id": "KAT_3_3",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji-romatoloji geçiş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_4",
+            "id": "KAT_3_4",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji-endokrin geçiş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_5",
+            "id": "KAT_3_5",
             "kat": "3",
             "bolum": "endokrin",
             "description": "Endokrin asansör boşluğu",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_6",
+            "id": "KAT_3_6",
             "kat": "3",
             "bolum": "endokrin",
             "description": "Endokrin asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_7",
+            "id": "KAT_3_7",
             "kat": "3",
             "bolum": "endokrin",
             "description": "Endokrin merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_8",
+            "id": "KAT_3_8",
             "kat": "3",
             "bolum": "endokrin",
             "description": "Endokrin asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_9",
+            "id": "KAT_3_9",
             "kat": "3",
             "bolum": "çocuk başhekimlik",
             "description": "Çocuk başhekimlik koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_10",
+            "id": "KAT_3_10",
             "kat": "3",
             "bolum": "enstitü dergi",
             "description": "Enstitü dergi asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_11",
+            "id": "KAT_3_11",
             "kat": "3",
             "bolum": "enstitü dergi",
             "description": "Enstitü dergi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_12",
+            "id": "KAT_3_12",
             "kat": "3",
             "bolum": "kemik iliği",
             "description": "Kemik iliği koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_13",
+            "id": "KAT_3_13",
             "kat": "3",
             "bolum": "kbb",
             "description": "KBB merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_14",
+            "id": "KAT_3_14",
             "kat": "3",
             "bolum": "kbb",
             "description": "KBB asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_15",
+            "id": "KAT_3_15",
             "kat": "3",
             "bolum": "kbb",
             "description": "KBB koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_16",
+            "id": "KAT_3_16",
             "kat": "3",
             "bolum": "hematoloji",
             "description": "Hematoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_17",
+            "id": "KAT_3_17",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_18",
+            "id": "KAT_3_18",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_19",
+            "id": "KAT_3_19",
             "kat": "3",
             "bolum": "hematoloji",
             "description": "Hematoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_20",
+            "id": "KAT_3_20",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_21",
+            "id": "KAT_3_21",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_22",
+            "id": "KAT_3_22",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_23",
+            "id": "KAT_3_23",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_24",
+            "id": "KAT_3_24",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_25",
+            "id": "KAT_3_25",
             "kat": "3",
             "bolum": "çocuk kalp damar",
             "description": "Çocuk kalp damar koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_26",
+            "id": "KAT_3_26",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_27",
+            "id": "KAT_3_27",
             "kat": "3",
             "bolum": "çocuk kalp damar",
             "description": "Çocuk kalp damar merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_28",
+            "id": "KAT_3_28",
             "kat": "3",
             "bolum": "çocuk kalp damar",
             "description": "Çocuk kalp damar kapı",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_29",
+            "id": "KAT_3_29",
             "kat": "3",
             "bolum": "çocuk kalp damar",
             "description": "Çocuk kalp damar merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_30",
+            "id": "KAT_3_30",
             "kat": "3",
             "bolum": "çocuk kalp damar",
             "description": "Çocuk kalp damar asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_31",
+            "id": "KAT_3_31",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_32",
+            "id": "KAT_3_32",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_33",
+            "id": "KAT_3_33",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_34",
+            "id": "KAT_3_34",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_35",
+            "id": "KAT_3_35",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_36",
+            "id": "KAT_3_36",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_37",
+            "id": "KAT_3_37",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_38",
+            "id": "KAT_3_38",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_39",
+            "id": "KAT_3_39",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_40",
+            "id": "KAT_3_40",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_41",
+            "id": "KAT_3_41",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_42",
+            "id": "KAT_3_42",
             "kat": "3",
             "bolum": "doğum servisi",
             "description": "Doğum servisi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_43",
+            "id": "KAT_3_43",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_44",
+            "id": "KAT_3_44",
             "kat": "3",
             "bolum": "genel cerrahi",
             "description": "Genel cerrahi tüp geçiş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_45",
+            "id": "KAT_3_45",
             "kat": "3",
             "bolum": "yanık",
             "description": "Yanık asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_46",
+            "id": "KAT_3_46",
             "kat": "3",
             "bolum": "yanık",
             "description": "Yanık geçiş kapısı",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_47",
+            "id": "KAT_3_47",
             "kat": "3",
             "bolum": "yanık",
             "description": "Yanık koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_48",
+            "id": "KAT_3_48",
             "kat": "3",
             "bolum": "yanık",
             "description": "Yanık merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_49",
+            "id": "KAT_3_49",
             "kat": "3",
             "bolum": "yanık",
             "description": "Yanık koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_50",
+            "id": "KAT_3_50",
             "kat": "3",
             "bolum": "endokrin",
             "description": "Endokrin giriş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_51",
+            "id": "KAT_3_51",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş/çıkış kapısı",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_53",
+            "id": "KAT_3_53",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_54",
+            "id": "KAT_3_54",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_55",
+            "id": "KAT_3_55",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji geçiş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_56",
+            "id": "KAT_3_56",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_58",
+            "id": "KAT_3_58",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_59",
+            "id": "KAT_3_59",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji kapı",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_60",
+            "id": "KAT_3_60",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_61",
+            "id": "KAT_3_61",
             "kat": "3",
             "bolum": "morfoloji",
             "description": "Morfoloji tüp geçiş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_62",
+            "id": "KAT_3_62",
             "kat": "3",
             "bolum": "klinik nütrisyon",
             "description": "Klinik nütrisyon koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_63",
+            "id": "KAT_3_63",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "tüp geçiş koridoru",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_64",
+            "id": "KAT_3_64",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_65",
+            "id": "KAT_3_65",
             "kat": "3",
             "bolum": "nefroloji",
             "description": "Nefroloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_67",
+            "id": "KAT_3_67",
             "kat": "3",
             "bolum": "radyoloji",
             "description": "Radyoloji giriş",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_69",
+            "id": "KAT_3_69",
             "kat": "3",
             "bolum": "radyoloji",
             "description": "Radyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_70",
+            "id": "KAT_3_70",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_72",
+            "id": "KAT_3_72",
             "kat": "3",
             "bolum": "giriş",
             "description": "Giriş merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_73",
+            "id": "KAT_3_73",
             "kat": "3",
             "bolum": "klinik nütrisyon",
             "description": "Klinik nütrisyon koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_74",
+            "id": "KAT_3_74",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_75",
+            "id": "KAT_3_75",
             "kat": "3",
             "bolum": "spor hekimliği",
             "description": "Spor hekimliği koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_76",
+            "id": "KAT_3_76",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_77",
+            "id": "KAT_3_77",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_78",
+            "id": "KAT_3_78",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji asansör",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_79",
+            "id": "KAT_3_79",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji merdiven",
             "diger_katlara_gecis": true
         },
         {
-            "id": "KAT3_80",
+            "id": "KAT_3_80",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_81",
+            "id": "KAT_3_81",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_83",
+            "id": "KAT_3_83",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_84",
+            "id": "KAT_3_84",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_85",
+            "id": "KAT_3_85",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",
             "diger_katlara_gecis": false
         },
         {
-            "id": "KAT3_86",
+            "id": "KAT_3_86",
             "kat": "3",
             "bolum": "kardiyoloji",
             "description": "Kardiyoloji koridor",

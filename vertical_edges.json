@@ -1,15 +1,15 @@
 {
   "edges": [
     {
-      "from": "KAT3_8",
-      "to": "KAT1_8",
+      "from": "KAT_3_8",
+      "to": "KAT_1_8",
       "weight": 1,
       "instruction": "Asansör ile 1. kata inin",
       "type": "elevator"
     },
     {
-      "from": "KAT1_8",
-      "to": "KAT3_8",
+      "from": "KAT_1_8",
+      "to": "KAT_3_8",
       "weight": 1,
       "instruction": "Asansör ile 3. kata çıkın",
       "type": "elevator"
