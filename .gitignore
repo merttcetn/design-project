@@ -8,3 +8,5 @@ __pycache__/
 
 # Pytest cache
 .pytest_cache/
+
+.env
