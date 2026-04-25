@@ -467,6 +467,474 @@
             "to": "ZEMIN_KAT_75",
             "weight": 1,
             "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_2",
+            "to": "ZEMIN_KAT_1",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_3",
+            "to": "ZEMIN_KAT_2",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_4",
+            "to": "ZEMIN_KAT_2",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_6",
+            "to": "ZEMIN_KAT_2",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_5",
+            "to": "ZEMIN_KAT_3",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_6",
+            "to": "ZEMIN_KAT_3",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_69",
+            "to": "ZEMIN_KAT_3",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_6",
+            "to": "ZEMIN_KAT_5",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_7",
+            "to": "ZEMIN_KAT_5",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_8",
+            "to": "ZEMIN_KAT_7",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_9",
+            "to": "ZEMIN_KAT_8",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_10",
+            "to": "ZEMIN_KAT_8",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_11",
+            "to": "ZEMIN_KAT_10",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_12",
+            "to": "ZEMIN_KAT_10",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_13",
+            "to": "ZEMIN_KAT_12",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_14",
+            "to": "ZEMIN_KAT_13",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_15",
+            "to": "ZEMIN_KAT_12",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_16",
+            "to": "ZEMIN_KAT_15",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_28",
+            "to": "ZEMIN_KAT_15",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_17",
+            "to": "ZEMIN_KAT_16",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_18",
+            "to": "ZEMIN_KAT_17",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_19",
+            "to": "ZEMIN_KAT_18",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_20",
+            "to": "ZEMIN_KAT_19",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_21",
+            "to": "ZEMIN_KAT_19",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_22",
+            "to": "ZEMIN_KAT_20",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_23",
+            "to": "ZEMIN_KAT_22",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_24",
+            "to": "ZEMIN_KAT_23",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_25",
+            "to": "ZEMIN_KAT_24",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_26",
+            "to": "ZEMIN_KAT_25",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_27",
+            "to": "ZEMIN_KAT_26",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_28",
+            "to": "ZEMIN_KAT_26",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_29",
+            "to": "ZEMIN_KAT_28",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_30",
+            "to": "ZEMIN_KAT_27",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_31",
+            "to": "ZEMIN_KAT_30",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_32",
+            "to": "ZEMIN_KAT_30",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_33",
+            "to": "ZEMIN_KAT_32",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_34",
+            "to": "ZEMIN_KAT_32",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_35",
+            "to": "ZEMIN_KAT_34",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_36",
+            "to": "ZEMIN_KAT_35",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_37",
+            "to": "ZEMIN_KAT_35",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_51",
+            "to": "ZEMIN_KAT_35",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_52",
+            "to": "ZEMIN_KAT_51",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_66",
+            "to": "ZEMIN_KAT_51",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_53",
+            "to": "ZEMIN_KAT_52",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_54",
+            "to": "ZEMIN_KAT_53",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_55",
+            "to": "ZEMIN_KAT_54",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_56",
+            "to": "ZEMIN_KAT_55",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_57",
+            "to": "ZEMIN_KAT_56",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_58",
+            "to": "ZEMIN_KAT_56",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_59",
+            "to": "ZEMIN_KAT_58",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_60",
+            "to": "ZEMIN_KAT_59",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_61",
+            "to": "ZEMIN_KAT_59",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_62",
+            "to": "ZEMIN_KAT_61",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_63",
+            "to": "ZEMIN_KAT_57",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_64",
+            "to": "ZEMIN_KAT_63",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_67",
+            "to": "ZEMIN_KAT_63",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_65",
+            "to": "ZEMIN_KAT_64",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_66",
+            "to": "ZEMIN_KAT_64",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_68",
+            "to": "ZEMIN_KAT_67",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_41",
+            "to": "ZEMIN_KAT_37",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_42",
+            "to": "ZEMIN_KAT_41",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_43",
+            "to": "ZEMIN_KAT_41",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_44",
+            "to": "ZEMIN_KAT_43",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_45",
+            "to": "ZEMIN_KAT_44",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_46",
+            "to": "ZEMIN_KAT_43",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_47",
+            "to": "ZEMIN_KAT_46",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_48",
+            "to": "ZEMIN_KAT_47",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_49",
+            "to": "ZEMIN_KAT_48",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_50",
+            "to": "ZEMIN_KAT_49",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_38",
+            "to": "ZEMIN_KAT_37",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_39",
+            "to": "ZEMIN_KAT_38",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_40",
+            "to": "ZEMIN_KAT_39",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_70",
+            "to": "ZEMIN_KAT_69",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_71",
+            "to": "ZEMIN_KAT_70",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_72",
+            "to": "ZEMIN_KAT_70",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_73",
+            "to": "ZEMIN_KAT_72",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_74",
+            "to": "ZEMIN_KAT_73",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
+        },
+        {
+            "from": "ZEMIN_KAT_75",
+            "to": "ZEMIN_KAT_74",
+            "weight": 1,
+            "instruction": "Düz ilerleyin."
         }
     ]
 }
