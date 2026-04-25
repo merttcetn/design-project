@@ -2,420 +2,417 @@
     "nodes": [
         {
             "id": "KAT_1_1",
-            "kat": "1",
-            "bolum": "romatoloji",
+            "kat": 1,
+            "bolum": "Romatoloji",
             "description": "Romatoloji merdiven"
         },
         {
             "id": "KAT_1_2",
-            "kat": "1",
-            "bolum": "romatoloji",
+            "kat": 1,
+            "bolum": "Romatoloji",
             "description": "Romatoloji koridor"
         },
         {
             "id": "KAT_1_3",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji merdiven",
             "diger_katlara_gecis": true
-
         },
         {
             "id": "KAT_1_4",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji asansör",
             "diger_katlara_gecis": true
-
         },
         {
             "id": "KAT_1_5",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji koridor girişi"
         },
         {
             "id": "KAT_1_6",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji koridor"
         },
         {
             "id": "KAT_1_7",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_8",
-            "kat": "1",
-            "bolum": "kardiyoloji",
+            "kat": 1,
+            "bolum": "Kardiyoloji",
             "description": "Kardiyoloji merdiven",
             "diger_katlara_gecis": true
-
         },
         {
             "id": "KAT_1_9",
-            "kat": "1",
-            "bolum": "gelişimsel pediatri",
+            "kat": 1,
+            "bolum": "Gelişimsel Pediatri",
             "description": "Gelişimsel Pediatri koridor"
         },
         {
             "id": "KAT_1_10",
-            "kat": "1",
-            "bolum": "çocuk hastalıkları",
+            "kat": 1,
+            "bolum": "Çocuk Hastalıkları",
             "description": "Çocuk Hastalıkları merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_11",
-            "kat": "1",
-            "bolum": "çocuk hastalıkları",
+            "kat": 1,
+            "bolum": "Çocuk Hastalıkları",
             "description": "Çocuk Hastalıkları toplantı koridor"
         },
         {
             "id": "KAT_1_12",
-            "kat": "1",
-            "bolum": "çocuk hastalıkları",
+            "kat": 1,
+            "bolum": "Çocuk Hastalıkları",
             "description": "Çocuk Hastalıkları koridor giriş"
         },
         {
             "id": "KAT_1_13",
-            "kat": "1",
-            "bolum": "çocuk hastalıkları",
+            "kat": 1,
+            "bolum": "Çocuk Hastalıkları",
             "description": "Çocuk Hastalıkları koridor"
         },
         {
             "id": "KAT_1_14",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor girişi"
         },
         {
             "id": "KAT_1_15",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_16",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor girişi"
         },
         {
             "id": "KAT_1_17",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor girişi"
         },
         {
             "id": "KAT_1_18",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_19",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_20",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor girişi"
         },
         {
             "id": "KAT_1_21",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor"
         },
         {
             "id": "KAT_1_22",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_23",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_24",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_25",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_26",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_27",
-            "kat": "1",
-            "bolum": "radyoloji",
+            "kat": 1,
+            "bolum": "Radyoloji",
             "description": "Radyoloji koridor"
         },
         {
             "id": "KAT_1_28",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_29",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor"
         },
         {
             "id": "KAT_1_29_1",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi merdiven"
         },
         {
             "id": "KAT_1_30",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor"
         },
         {
             "id": "KAT_1_31",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor girişi"
         },
         {
             "id": "KAT_1_32",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_33",
-            "kat": "1",
-            "bolum": "beyin cerrahi",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_34",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor genel"
         },
         {
             "id": "KAT_1_35",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_36",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_37",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor genel"
         },
         {
             "id": "KAT_1_38",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_39",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_40",
-            "kat": "1",
-             "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_41",
-            "kat": "1",
-            "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_42",
-            "kat": "1",
-             "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_43",
-            "kat": "1",
-             "bolum": "beyin cerrahi ad",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi AD",
             "description": "Beyin Cerrahi AD koridor"
         },
         {
             "id": "KAT_1_44",
-            "kat": "1",
-            "bolum": "alerji",
+            "kat": 1,
+            "bolum": "Alerji",
             "description": "alerji koridor"
         },
         {
             "id": "KAT_1_45",
-            "kat": "1",
-            "bolum": "alerji",
+            "kat": 1,
+            "bolum": "Alerji",
             "description": "alerji koridor"
         },
         {
             "id": "KAT_1_46",
-            "kat": "1",
-            "bolum": "alerji",
+            "kat": 1,
+            "bolum": "Alerji",
             "description": "alerji koridor"
         },
         {
             "id": "KAT_1_47",
-            "kat": "1",
-            "bolum": "göğüs hastalıkları",
+            "kat": 1,
+            "bolum": "Göğüs Hastalıkları",
             "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_48",
-            "kat": "1",
-            "bolum": "göğüs hastalıkları",
+            "kat": 1,
+            "bolum": "Göğüs Hastalıkları",
             "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_49",
-            "kat": "1",
-            "bolum": "göğüs hastalıkları",
+            "kat": 1,
+            "bolum": "Göğüs Hastalıkları",
             "description": "Göğüs Hastalıkları koridor"
         },
         {
             "id": "KAT_1_50",
-            "kat": "1",
-            "bolum": "göğüs hastalıkları",
+            "kat": 1,
+            "bolum": "Göğüs Hastalıkları",
             "description": "Göğüs Hastalıkları merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_51",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_52",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi koridor"
         },
         {
             "id": "KAT_1_53",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi koridor"
         },
         {
             "id": "KAT_1_54",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_55",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi koridor"
         },
         {
             "id": "KAT_1_56",
-            "kat": "1",
-            "bolum": "plastik cerrahi",
+            "kat": 1,
+            "bolum": "Plastik Cerrahi",
             "description": "Plastik Cerrahi koridor"
         },
         {
             "id": "KAT_1_57",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_57_1",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane asansör",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_58",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_59",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_60",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_61",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane merdiven",
             "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_62",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_63",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         },
         {
             "id": "KAT_1_64",
-            "kat": "1",
-            "bolum": "doğumhane",
+            "kat": 1,
+            "bolum": "Doğumhane",
             "description": "doğumhane koridor"
         }
     ]
