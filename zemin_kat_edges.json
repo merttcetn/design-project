@@ -238,7 +238,7 @@
             "from": "ZEMIN_KAT_35",
             "to": "ZEMIN_KAT_37",
             "weight": 1,
-            "instruction": "Karşınızdaki kapıdan geçin."    
+            "instruction": "Karşınızdaki kapıdan geçin."
         },
         {
             "from": "ZEMIN_KAT_35",
@@ -472,7 +472,7 @@
             "from": "ZEMIN_KAT_2",
             "to": "ZEMIN_KAT_1",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Otomatik kapıdan geçin."
         },
         {
             "from": "ZEMIN_KAT_3",
@@ -490,13 +490,13 @@
             "from": "ZEMIN_KAT_6",
             "to": "ZEMIN_KAT_2",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Danışmanın yanındaki merdivenlere doğru gidin."
         },
         {
             "from": "ZEMIN_KAT_5",
             "to": "ZEMIN_KAT_3",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansörlere doğru gidin."
         },
         {
             "from": "ZEMIN_KAT_6",
@@ -508,19 +508,19 @@
             "from": "ZEMIN_KAT_69",
             "to": "ZEMIN_KAT_3",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Holdeki merdivenlere doğru gidin."
         },
         {
             "from": "ZEMIN_KAT_6",
             "to": "ZEMIN_KAT_5",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Karşıdaki merdivenlere doğru gidin."
         },
         {
             "from": "ZEMIN_KAT_7",
             "to": "ZEMIN_KAT_5",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Solunuzdaki koridora doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_8",
@@ -532,7 +532,7 @@
             "from": "ZEMIN_KAT_9",
             "to": "ZEMIN_KAT_8",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_10",
@@ -544,19 +544,19 @@
             "from": "ZEMIN_KAT_11",
             "to": "ZEMIN_KAT_10",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansörlere doğru gidin."
         },
         {
             "from": "ZEMIN_KAT_12",
             "to": "ZEMIN_KAT_10",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_13",
             "to": "ZEMIN_KAT_12",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan çıkıp devam edin."
         },
         {
             "from": "ZEMIN_KAT_14",
@@ -568,31 +568,31 @@
             "from": "ZEMIN_KAT_15",
             "to": "ZEMIN_KAT_12",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansör ve merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_16",
             "to": "ZEMIN_KAT_15",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_28",
             "to": "ZEMIN_KAT_15",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_17",
             "to": "ZEMIN_KAT_16",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_18",
             "to": "ZEMIN_KAT_17",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Solunuzdaki koridora devam edin."
         },
         {
             "from": "ZEMIN_KAT_19",
@@ -604,13 +604,13 @@
             "from": "ZEMIN_KAT_20",
             "to": "ZEMIN_KAT_19",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Karşınızdaki kapıdan geçin."
         },
         {
             "from": "ZEMIN_KAT_21",
             "to": "ZEMIN_KAT_19",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Muayene odalarından devam edin."
         },
         {
             "from": "ZEMIN_KAT_22",
@@ -622,7 +622,7 @@
             "from": "ZEMIN_KAT_23",
             "to": "ZEMIN_KAT_22",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Solunuzdaki koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_24",
@@ -634,7 +634,7 @@
             "from": "ZEMIN_KAT_25",
             "to": "ZEMIN_KAT_24",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_26",
@@ -652,43 +652,43 @@
             "from": "ZEMIN_KAT_28",
             "to": "ZEMIN_KAT_26",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenleri sağınıza alıp devam edin."
         },
         {
             "from": "ZEMIN_KAT_29",
             "to": "ZEMIN_KAT_28",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_30",
             "to": "ZEMIN_KAT_27",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_31",
             "to": "ZEMIN_KAT_30",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_32",
             "to": "ZEMIN_KAT_30",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_33",
             "to": "ZEMIN_KAT_32",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_34",
             "to": "ZEMIN_KAT_32",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Rampadan devam edin."
         },
         {
             "from": "ZEMIN_KAT_35",
@@ -700,13 +700,13 @@
             "from": "ZEMIN_KAT_36",
             "to": "ZEMIN_KAT_35",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_37",
             "to": "ZEMIN_KAT_35",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Karşınızdaki kapıdan geçin."
         },
         {
             "from": "ZEMIN_KAT_51",
@@ -718,19 +718,19 @@
             "from": "ZEMIN_KAT_52",
             "to": "ZEMIN_KAT_51",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_66",
             "to": "ZEMIN_KAT_51",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_53",
             "to": "ZEMIN_KAT_52",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_54",
@@ -748,19 +748,19 @@
             "from": "ZEMIN_KAT_56",
             "to": "ZEMIN_KAT_55",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kan almayı sağınıza alıp devam edin."
         },
         {
             "from": "ZEMIN_KAT_57",
             "to": "ZEMIN_KAT_56",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_58",
             "to": "ZEMIN_KAT_56",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_59",
@@ -772,13 +772,13 @@
             "from": "ZEMIN_KAT_60",
             "to": "ZEMIN_KAT_59",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansöre doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_61",
             "to": "ZEMIN_KAT_59",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_62",
@@ -790,13 +790,13 @@
             "from": "ZEMIN_KAT_63",
             "to": "ZEMIN_KAT_57",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_64",
             "to": "ZEMIN_KAT_63",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansöre doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_67",
@@ -808,7 +808,7 @@
             "from": "ZEMIN_KAT_65",
             "to": "ZEMIN_KAT_64",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_66",
@@ -820,55 +820,55 @@
             "from": "ZEMIN_KAT_68",
             "to": "ZEMIN_KAT_67",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Asansör holüne doğru devam edin."
         },
         {
             "from": "ZEMIN_KAT_41",
             "to": "ZEMIN_KAT_37",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Radyoloji koridorundan devam edin."
         },
         {
             "from": "ZEMIN_KAT_42",
             "to": "ZEMIN_KAT_41",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         },
         {
             "from": "ZEMIN_KAT_43",
             "to": "ZEMIN_KAT_41",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridor boyunca devam edin."
         },
         {
             "from": "ZEMIN_KAT_44",
             "to": "ZEMIN_KAT_43",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kayar kapıdan geçip bekleme alanından devam edin."
         },
         {
             "from": "ZEMIN_KAT_45",
             "to": "ZEMIN_KAT_44",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin."
         },
         {
             "from": "ZEMIN_KAT_46",
             "to": "ZEMIN_KAT_43",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridor boyunca devam edip kapıdan geçin."
         },
         {
             "from": "ZEMIN_KAT_47",
             "to": "ZEMIN_KAT_46",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "B3 girişinden devam edin."
         },
         {
             "from": "ZEMIN_KAT_48",
             "to": "ZEMIN_KAT_47",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Danışmadan devam edin."
         },
         {
             "from": "ZEMIN_KAT_49",
@@ -880,37 +880,37 @@
             "from": "ZEMIN_KAT_50",
             "to": "ZEMIN_KAT_49",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenlere doğru ilerleyin."
         },
         {
             "from": "ZEMIN_KAT_38",
             "to": "ZEMIN_KAT_37",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridordan devam edin. Sağınızda radyoloji girişi kalacak."
         },
         {
             "from": "ZEMIN_KAT_39",
             "to": "ZEMIN_KAT_38",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridor boyunca devam edin."
         },
         {
             "from": "ZEMIN_KAT_40",
             "to": "ZEMIN_KAT_39",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kayar kapıdan geçip devam edin."
         },
         {
             "from": "ZEMIN_KAT_70",
             "to": "ZEMIN_KAT_69",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Koridor boyunca devam edin."
         },
         {
             "from": "ZEMIN_KAT_71",
             "to": "ZEMIN_KAT_70",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenleri geçip kapıdan devam edin."
         },
         {
             "from": "ZEMIN_KAT_72",
@@ -928,13 +928,13 @@
             "from": "ZEMIN_KAT_74",
             "to": "ZEMIN_KAT_73",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Merdivenleri geçip kapıdan devam edin."
         },
         {
             "from": "ZEMIN_KAT_75",
             "to": "ZEMIN_KAT_74",
             "weight": 1,
-            "instruction": "Düz ilerleyin."
+            "instruction": "Kapıdan geçip, devam edin."
         }
     ]
 }
