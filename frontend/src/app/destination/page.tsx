@@ -51,12 +51,8 @@ export default function DestinationScreen() {
   }
 
   async function handleFindRoute() {
-    try {
-      const route = await requestRoute();
-      router.push(route.instructions.length === 0 ? "/arrival" : "/navigation");
-    } catch {
-      // Error text is stored in navigation context and shown below the selector.
-    }
+    // Navigate to loading screen immediately
+    router.push("/loading");
   }
 
   return (
