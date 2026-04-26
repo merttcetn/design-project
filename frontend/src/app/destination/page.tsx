@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import {
   AlertCircle,
   ArrowLeft,
-  Check,
   MapPin,
   Navigation,
+  SlidersHorizontal,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -136,8 +136,8 @@ export default function DestinationScreen() {
         transition={{ delay: 0.18, duration: 0.38, type: "spring" }}
       >
         <NodeSelector
-          label="Varış (B)"
-          placeholder="Varış konumu seçin"
+          label="Hedef konum"
+          placeholder="Varış noktası seçin"
           value={goalId}
           nodes={nodes}
           loading={nodesLoading}
@@ -157,24 +157,39 @@ export default function DestinationScreen() {
           role="switch"
           aria-checked={avoidStairs}
           onClick={() => setAvoidStairs(!avoidStairs)}
-          className="flex min-h-[72px] w-full items-center gap-3 rounded-[14px] bg-surface p-4 text-left shadow-subtle transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary active:opacity-75"
+          className="flex w-full items-center gap-4 rounded-2xl bg-surface p-1 shadow-subtle transition-all hover:bg-surface-subtle active:scale-[0.99]"
         >
-          <span
+          <div
             className={cn(
-              "flex size-7 shrink-0 items-center justify-center rounded-lg border-2 border-border bg-surface",
-              avoidStairs && "border-primary bg-primary",
+              "flex size-12 shrink-0 items-center justify-center rounded-xl transition-colors",
+              avoidStairs
+                ? "bg-primary text-surface shadow-md"
+                : "bg-surface-subtle text-muted",
             )}
           >
-            {avoidStairs ? <Check size={16} className="text-surface" /> : null}
-          </span>
-          <span className="min-w-0 flex-1">
-            <span className="block text-base font-semibold leading-[21px] text-ink">
-              Merdivensiz rotayı seç
+            <SlidersHorizontal size={22} />
+          </div>
+          <span className="min-w-0 flex-1 pr-4">
+            <span className="block text-[15px] font-semibold text-ink">
+              Merdivensiz rota
             </span>
-            <span className="block text-[13px] leading-[18px] text-muted">
-              Uygunsa asansör ve düz geçişler önceliklendirilir.
+            <span className="block text-[12px] leading-[16px] text-muted">
+              Asansör ve düz geçişler öncelikli
             </span>
           </span>
+          <div
+            className={cn(
+              "relative h-6 w-11 shrink-0 rounded-full bg-border transition-all",
+              avoidStairs && "bg-primary",
+            )}
+          >
+            <div
+              className={cn(
+                "absolute top-0.5 size-5 rounded-full bg-surface shadow-sm transition-all",
+                avoidStairs ? "left-[22px]" : "left-0.5",
+              )}
+            />
+          </div>
         </button>
       </motion.div>
 

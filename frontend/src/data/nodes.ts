@@ -91,3 +91,29 @@ function normalize(value: string) {
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
 }
+
+// Benzersiz katları sıralı döner — [0, 1, 2, 3, 4]
+export function getUniqueFloors(nodes: BuildingNode[]): number[] {
+  return [...new Set(nodes.map((n) => n.kat))].sort((a, b) => a - b);
+}
+
+// Belirtilen kattaki node'ları gruplandırılmış section'la döner
+// Section title olarak sadece bolum kullanır — kat picker'da zaten görünür
+export function getNodeSectionsForFloor(
+  nodes: BuildingNode[],
+  floor: number,
+): NodeSection[] {
+  const filtered = nodes.filter((n) => n.kat === floor);
+  const grouped = new Map<string, NodeSection>();
+
+  for (const node of filtered) {
+    const existing = grouped.get(node.bolum);
+    if (existing) {
+      existing.data.push(node);
+    } else {
+      grouped.set(node.bolum, { title: node.bolum, data: [node] });
+    }
+  }
+
+  return Array.from(grouped.values());
+}

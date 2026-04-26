@@ -105,6 +105,7 @@ export default function HomeScreen() {
           nodes={nodes}
           loading={nodesLoading}
           error={nodesError}
+          floorFilter={0}
           onChange={setStartId}
         />
       </motion.div>
