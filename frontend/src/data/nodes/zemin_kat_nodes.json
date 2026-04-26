@@ -1,0 +1,469 @@
+{
+    "nodes": [
+        {
+            "id": "ZEMIN_KAT_1",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Zemin kat girişi"
+        },
+        {
+            "id": "ZEMIN_KAT_2",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Zemin kat"
+        },
+        {
+            "id": "ZEMIN_KAT_3",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Zemin kat"
+        },
+        {
+            "id": "ZEMIN_KAT_4",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Fizik tedavi giriş"
+        },
+        {
+            "id": "ZEMIN_KAT_5",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Giriş asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_6",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Zemin kat merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_7",
+            "kat": 0,
+            "bolum": "Giriş",
+            "description": "Zemin kat koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_8",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor merdiven girişi"
+        },
+        {
+            "id": "ZEMIN_KAT_9",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_10",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor asansör giriş"
+        },
+        {
+            "id": "ZEMIN_KAT_11",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_12",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_13",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_14",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp asansör ve merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_15",
+            "kat": 0,
+            "bolum": "Nükleer Tıp",
+            "description": "Nükleer tıp koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_16",
+            "kat": 0,
+            "bolum": "Nükleer Tıp - Ortopedi",
+            "description": "Nükleer tıp ortopedi geçişi kapısı"
+        },
+        {
+            "id": "ZEMIN_KAT_17",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_18",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_19",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_20",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_21",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_22",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_23",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_24",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_25",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi geçişi kapısı"
+        },
+        {
+            "id": "ZEMIN_KAT_26",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_27",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_28",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_29",
+            "kat": 0,
+            "bolum": "Ortopedi",
+            "description": "Ortopedi koridor",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_30",
+            "kat": 0,
+            "bolum": "Kardiyoloji",
+            "description": "Kardiyoloji koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_31",
+            "kat": 0,
+            "bolum": "Kardiyoloji",
+            "description": "Kardiyoloji özel poliklinik"
+        },
+        {
+            "id": "ZEMIN_KAT_32",
+            "kat": 0,
+            "bolum": "Kardiyoloji",
+            "description": "Kardiyoloji koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_33",
+            "kat": 0,
+            "bolum": "Kardiyoloji",
+            "description": "Kardiyoloji özel poliklinik"
+        },
+        {
+            "id": "ZEMIN_KAT_34",
+            "kat": 0,
+            "bolum": "Kardiyoloji",
+            "description": "Kardiyoloji koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_35",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_36",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_37",
+            "kat": 0,
+            "bolum": "Rapor Okuma",
+            "description": "Rapor okuma koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_38",
+            "kat": 0,
+            "bolum": "Rapor Okuma",
+            "description": "Rapor okuma koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_39",
+            "kat": 0,
+            "bolum": "Rapor Okuma",
+            "description": "Rapor okuma koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_40",
+            "kat": 0,
+            "bolum": "Rapor Okuma",
+            "description": "Rapor okuma koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_41",
+            "kat": 0,
+            "bolum": "Radyoloji",
+            "description": "Radyoloji koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_42",
+            "kat": 0,
+            "bolum": "Radyoloji",
+            "description": "Radyoloji merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_43",
+            "kat": 0,
+            "bolum": "Radyoloji",
+            "description": "Radyoloji koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_44",
+            "kat": 0,
+            "bolum": "Radyoloji",
+            "description": "radyoloji - manyetik rezonans tıp"
+        },
+        {
+            "id": "ZEMIN_KAT_45",
+            "kat": 0,
+            "bolum": "Manyetik Rezonans Tıp",
+            "description": "manyetik rezonans tıp koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_46",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_47",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "giriş 2"
+        },
+        {
+            "id": "ZEMIN_KAT_48",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "danışma"
+        },
+        {
+            "id": "ZEMIN_KAT_49",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "danışma"
+        },
+        {
+            "id": "ZEMIN_KAT_50",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_51",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_52",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_53",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_54",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_55",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_56",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_57",
+            "kat": 0,
+            "bolum": "Çocuk Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_58",
+            "kat": 0,
+            "bolum": "Romatoloji",
+            "description": "merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_59",
+            "kat": 0,
+            "bolum": "Romatoloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_60",
+            "kat": 0,
+            "bolum": "Romatoloji",
+            "description": "Romatoloji asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_61",
+            "kat": 0,
+            "bolum": "Romatoloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_62",
+            "kat": 0,
+            "bolum": "Romatoloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_63",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "Koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_64",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "Genel asansör",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_65",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_66",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_67",
+            "kat": 0,
+            "bolum": "Özel Poliklinik",
+            "description": "özel poliklinik koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_68",
+            "kat": 0,
+            "bolum": "Özel Poliklinik",
+            "description": "özel poliklinik koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_69",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "bekleme alanı"
+        },
+        {
+            "id": "ZEMIN_KAT_70",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "bekleme alanı"
+        },
+        {
+            "id": "ZEMIN_KAT_71",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_72",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_73",
+            "kat": 0,
+            "bolum": "Genel",
+            "description": "koridor"
+        },
+        {
+            "id": "ZEMIN_KAT_74",
+            "kat": 0,
+            "bolum": "Kadın Doğum",
+            "description": "Kadın doğum asansör ve merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "ZEMIN_KAT_75",
+            "kat": 0,
+            "bolum": "Kadın Doğum",
+            "description": "kadın doğum giriş"
+        }
+    ]
+}

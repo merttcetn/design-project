@@ -22,8 +22,6 @@ class LLMNavigationService:
         self.model = os.getenv("MINIMAX_MODEL", "MiniMax-M2.7")
         self.navigation_system_prompt = load_prompt_template("navigation_system.txt")
         self.navigation_user_prompt = load_prompt_template("navigation_user.txt")
-        self.route_summary_system_prompt = load_prompt_template("route_summary_system.txt")
-        self.route_summary_user_prompt = load_prompt_template("route_summary_user.txt")
 
     async def enhance_instructions(self, instructions: list[str], current_location: str) -> list[str]:
         """Verilen talimatları daha anlaşılır Türkçe metne dönüştürüp liste olarak döndürür."""
@@ -74,23 +72,4 @@ class LLMNavigationService:
             steps_text=steps_text,
         )
 
-    async def generate_route_description(self, path: list[str], instructions: list[str]) -> str:
-        """Rota için kısa bir özet ve genel yönergesi üretir."""
-        steps_text = "\n".join(f"{i+1}. {instr}" for i, instr in enumerate(instructions))
-        prompt = self.route_summary_user_prompt.format(
-            start=path[0],
-            goal=path[-1],
-            step_count=len(instructions),
-            steps_text=steps_text,
-        )
-
-        response = await self.client.chat.completions.create(
-            model=self.model,
-            temperature=0.1,
-            messages=[
-                {"role": "system", "content": self.route_summary_system_prompt},
-                {"role": "user", "content": prompt}
-            ]
-        )
-
-        return self._strip_think_tags(response.choices[0].message.content)
+    

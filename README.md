@@ -28,6 +28,12 @@ Kenar verilerinden bir adjacency list grafı oluşturup Dijkstra algoritmasıyla
 │   ├── models.py           # Pydantic request/response modelleri
 │   ├── config.py           # Environment ve path ayarları
 │   └── requirements.txt    # Backend bağımlılıkları
+├── frontend/               # Next.js web frontend
+│   ├── src/app/            # App Router sayfaları
+│   ├── src/components/     # UI bileşenleri
+│   ├── src/data/           # Frontend node verileri
+│   ├── public/             # Statik asset'ler
+│   └── package.json        # Frontend bağımlılıkları ve script'leri
 ├── test_navigator.py       # Rota bulma testleri
 ├── test_llm_service.py     # LLM çıktı parse ve entegrasyon testleri
 └── test_config.py          # Backend config testleri
@@ -35,10 +41,19 @@ Kenar verilerinden bir adjacency list grafı oluşturup Dijkstra algoritmasıyla
 
 ## Kurulum
 
+Backend:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r backend/requirements.txt
+```
+
+Frontend:
+
+```bash
+cd frontend
+npm install
 ```
 
 ## Kullanım
@@ -143,6 +158,39 @@ MINIMAX_MODEL=MiniMax-M2.7
 MINIMAX_BASE_URL=https://api.minimax.io/v1
 ```
 
+## Frontend'i Çalıştırma
+
+Frontend Next.js App Router ile yazılmış web uygulamasıdır. Mobil/Expo projesi artık tutulmaz.
+
+Backend çalışırken ayrı bir terminalde:
+
+```bash
+cd frontend
+npm run dev
+```
+
+Uygulama varsayılan olarak şu adreste açılır:
+
+```text
+http://localhost:3000
+```
+
+Frontend API adresi varsayılan olarak `http://127.0.0.1:8000` değerini kullanır. Farklı bir backend için `frontend/.env.local` oluşturun:
+
+```bash
+NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000
+```
+
+Frontend doğrulama komutları:
+
+```bash
+cd frontend
+npm run lint
+npm run build
+```
+
+`frontend/public/hacettepe-logo.svg` Wikimedia Commons üzerinden alınan Hacettepe Üniversitesi logosudur. Logo kullanımı kurum marka/trademark kurallarına tabi olabilir.
+
 ### Backend Üzerinden Graph Build
 
 Aşağıdaki endpoint'ler local geliştirme içindir ve varsayılan olarak kapalıdır. Açmak için `.env` içine şunu ekleyip backend'i yeniden başlatın:
@@ -203,10 +251,22 @@ LLM promptları `prompts/` klasöründedir:
 |---|---|
 | `prompts/navigation_system.txt` | JSON sözleşmeli adım adım navigasyon system prompt'u |
 | `prompts/navigation_user.txt` | Ham rota adımlarını LLM'e veren user prompt şablonu |
-| `prompts/route_summary_system.txt` | Rota özeti system prompt'u |
-| `prompts/route_summary_user.txt` | Rota özeti user prompt şablonu |
 
-Şablon dosyalarındaki `{current_location}`, `{steps_text}`, `{start}`, `{goal}` ve `{step_count}` alanları kod tarafından doldurulur. Bu placeholder isimlerini değiştirmeyin; geri kalan prompt metnini serbestçe düzenleyebilirsiniz.
+Şablon dosyalarındaki placeholder alanları kod tarafından doldurulur. Bu placeholder isimlerini değiştirmeyin; geri kalan prompt metnini serbestçe düzenleyebilirsiniz.
+
+## Git'e Eklenmeyen Dosyalar
+
+Repo `.gitignore` ve `frontend/.gitignore` ile şu dosyalar dışarıda bırakılır:
+
+| Yol | Sebep |
+|---|---|
+| `.env`, `.env.*`, `frontend/.env.local` | Lokal secret ve ortam ayarları |
+| `.venv/`, `venv/`, `env/` | Python sanal ortamları |
+| `__pycache__/`, `.pytest_cache/`, `.mypy_cache/`, `.ruff_cache/` | Python test/cache çıktıları |
+| `graph.json` | `build_graph.py` ile yeniden üretilebilen çıktı |
+| `frontend/node_modules/` | npm bağımlılıkları |
+| `frontend/.next/`, `frontend/out/`, `frontend/build/` | Next.js build/dev çıktıları |
+| `frontend/.playwright-cli/` | Lokal Playwright doğrulama çıktıları |
 
 ## Testleri Çalıştırma
 

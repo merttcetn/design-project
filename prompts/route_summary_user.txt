@@ -1,8 +1,0 @@
-Başlangıç: {start}
-Varış: {goal}
-Toplam adım: {step_count}
-
-Talimatlar:
-{steps_text}
-
-Bu rotayı ziyaretçiye gösterilecek şekilde 1-2 kısa Türkçe cümleyle özetle.

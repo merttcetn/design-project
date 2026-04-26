@@ -1,0 +1,292 @@
+{
+    "nodes": [
+        {
+            "id": "KAT_2_1",
+            "kat": 2,
+            "bolum": "Alerji ve Ergen Sağlığı",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_2",
+            "kat": 2,
+            "bolum": "Alerji ve Ergen Sağlığı",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_3",
+            "kat": 2,
+            "bolum": "Alerji ve Ergen Sağlığı",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_4",
+            "kat": 2,
+            "bolum": "Alerji ve Ergen Sağlığı",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_5",
+            "kat": 2,
+            "bolum": "Alerji ve Ergen Sağlığı",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_6",
+            "kat": 2,
+            "bolum": "Göğüs",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_7",
+            "kat": 2,
+            "bolum": "Göğüs",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_8",
+            "kat": 2,
+            "bolum": "Göğüs",
+            "description": "Oturma Alanı"
+        },
+        {
+            "id": "KAT_2_9",
+            "kat": 2,
+            "bolum": "Göğüs",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_10",
+            "kat": 2,
+            "bolum": "Baş Asistanlık",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_11",
+            "kat": 2,
+            "bolum": "Baş Asistanlık",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_12",
+            "kat": 2,
+            "bolum": "Adölesan Servisi",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_13",
+            "kat": 2,
+            "bolum": "Adölesan Servisi",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_13",
+            "kat": 2,
+            "bolum": "Adölesan Servisi",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_14",
+            "kat": 2,
+            "bolum": "3. Blok",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_15",
+            "kat": 2,
+            "bolum": "3. Blok",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_16",
+            "kat": 2,
+            "bolum": "3. Blok",
+            "description": "Asansör"
+        },
+        {
+            "id": "KAT_2_17",
+            "kat": 2,
+            "bolum": "3. Blok",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_18",
+            "kat": 2,
+            "bolum": "Ç. Ortopedi - Üroloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_19",
+            "kat": 2,
+            "bolum": "Ç. Ortopedi - Üroloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_20",
+            "kat": 2,
+            "bolum": "Ç. Ortopedi - Üroloji",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_21",
+            "kat": 2,
+            "bolum": "5. Blok",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_22",
+            "kat": 2,
+            "bolum": "5. Blok",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_23",
+            "kat": 2,
+            "bolum": "5. Blok",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_24",
+            "kat": 2,
+            "bolum": "5. Blok",
+            "description": "Asansör"
+        },
+        {
+            "id": "KAT_2_25",
+            "kat": 2,
+            "bolum": "5. Blok",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_26",
+            "kat": 2,
+            "bolum": "Ortopedi",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_27",
+            "kat": 2,
+            "bolum": "Göz",
+            "description": "Asansör"
+        },
+        {
+            "id": "KAT_2_28",
+            "kat": 2,
+            "bolum": "Göz",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_29",
+            "kat": 2,
+            "bolum": "Göz",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_30",
+            "kat": 2,
+            "bolum": "Göz",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_31",
+            "kat": 2,
+            "bolum": "Göz",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_32",
+            "kat": 2,
+            "bolum": "Ortopedi",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_33",
+            "kat": 2,
+            "bolum": "Ortopedi",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_34",
+            "kat": 2,
+            "bolum": "Ortopedi",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_35",
+            "kat": 2,
+            "bolum": "6. Blok",
+            "description": "Asansör"
+        },
+        {
+            "id": "KAT_2_36",
+            "kat": 2,
+            "bolum": "6. Blok",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_37",
+            "kat": 2,
+            "bolum": "6. Blok",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_38",
+            "kat": 2,
+            "bolum": "Beyin Cerrahi, Dermatoloji",
+            "description": "Kapı"
+        },
+        {
+            "id": "KAT_2_39",
+            "kat": 2,
+            "bolum": "Beyin Cerrahi, Dermatoloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_40",
+            "kat": 2,
+            "bolum": "Beyin Cerrahi, Dermatoloji",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_41",
+            "kat": 2,
+            "bolum": "Beyin Cerrahi, Dermatoloji",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_42",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_43",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_44",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_45",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Merdiven"
+        },
+        {
+            "id": "KAT_2_46",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Koridor"
+        },
+        {
+            "id": "KAT_2_47",
+            "kat": 2,
+            "bolum": "Kadın Doğum",
+            "description": "Koridor"
+        }
+    ]
+}
