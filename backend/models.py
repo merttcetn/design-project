@@ -24,6 +24,18 @@ class RouteResponse(BaseModel):
     enhanced_instructions: list[str]
 
 
+class BuildingNode(BaseModel):
+    id: str
+    kat: int
+    bolum: str
+    description: str
+    diger_katlara_gecis: bool | None = None
+
+
+class NodesResponse(BaseModel):
+    nodes: list[BuildingNode]
+
+
 class BuildGraphResponse(BaseModel):
     graph_path: str
     edge_files: list[str]

@@ -15,14 +15,14 @@ import type { RouteResponse } from "@/types/route";
 
 export default function NavigationScreen() {
   const router = useRouter();
-  const { startId, goalId, route, currentIndex, completeStep } =
+  const { startId, goalId, route, nodes, currentIndex, completeStep } =
     useNavigationFlow();
   const [animating, setAnimating] = useState(false);
 
   const totalSteps = route?.instructions.length ?? 0;
   const activeInstruction = route?.instructions[currentIndex] ?? null;
-  const startNode = getNodeById(startId);
-  const goalNode = getNodeById(goalId);
+  const startNode = getNodeById(nodes, startId);
+  const goalNode = getNodeById(nodes, goalId);
 
   useEffect(() => {
     if (!route) {
@@ -129,6 +129,7 @@ export default function NavigationScreen() {
           <StepCard
             instruction={activeInstruction}
             displayText={getDisplayText(route, currentIndex)}
+            nodes={nodes}
             stepNumber={currentIndex + 1}
             totalSteps={totalSteps}
           />
@@ -142,6 +143,7 @@ export default function NavigationScreen() {
                 key={`${instruction.from_node}-${instruction.to_node}-${instruction.index}`}
                 instruction={instruction}
                 displayText={getDisplayText(route, instructionIndex)}
+                nodes={nodes}
                 stepNumber={instructionIndex + 1}
                 totalSteps={totalSteps}
                 preview

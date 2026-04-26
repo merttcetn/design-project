@@ -28,6 +28,9 @@ export default function DestinationScreen() {
   const {
     startId,
     goalId,
+    nodes,
+    nodesLoading,
+    nodesError,
     avoidStairs,
     isLoading,
     error,
@@ -35,7 +38,7 @@ export default function DestinationScreen() {
     setAvoidStairs,
     requestRoute,
   } = useNavigationFlow();
-  const startNode = getNodeById(startId);
+  const startNode = getNodeById(nodes, startId);
 
   useEffect(() => {
     if (!startId) {
@@ -63,7 +66,9 @@ export default function DestinationScreen() {
         <PrimaryButton
           title="Yol Bul"
           loading={isLoading}
-          disabled={!goalId}
+          disabled={
+            !goalId || nodesLoading || Boolean(nodesError) || nodes.length === 0
+          }
           onClick={handleFindRoute}
           icon={<Navigation size={19} />}
         />
@@ -134,6 +139,9 @@ export default function DestinationScreen() {
           label="Varış (B)"
           placeholder="Varış konumu seçin"
           value={goalId}
+          nodes={nodes}
+          loading={nodesLoading}
+          error={nodesError}
           onChange={setGoalId}
         />
       </motion.div>

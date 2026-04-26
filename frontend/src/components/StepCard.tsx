@@ -6,13 +6,14 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-import { getFloorLabel, getNodeById } from "@/data/nodes";
+import { getFloorLabel, getNodeById, type BuildingNode } from "@/data/nodes";
 import { cn } from "@/lib/cn";
 import type { RouteInstruction } from "@/types/route";
 
 type StepCardProps = {
   instruction: RouteInstruction;
   displayText: string;
+  nodes: BuildingNode[];
   stepNumber: number;
   totalSteps: number;
   preview?: boolean;
@@ -49,13 +50,14 @@ const stepMeta = {
 export function StepCard({
   instruction,
   displayText,
+  nodes,
   stepNumber,
   totalSteps,
   preview = false,
 }: StepCardProps) {
   const meta = getStepMeta(instruction.type);
   const Icon = meta.icon;
-  const floorText = getFloorTransition(instruction);
+  const floorText = getFloorTransition(nodes, instruction);
 
   if (preview) {
     return (
@@ -122,9 +124,12 @@ function getStepMeta(type: string): StepMeta {
   return stepMeta.corridor;
 }
 
-function getFloorTransition(instruction: RouteInstruction) {
-  const fromNode = getNodeById(instruction.from_node);
-  const toNode = getNodeById(instruction.to_node);
+function getFloorTransition(
+  nodes: BuildingNode[],
+  instruction: RouteInstruction,
+) {
+  const fromNode = getNodeById(nodes, instruction.from_node);
+  const toNode = getNodeById(nodes, instruction.to_node);
 
   if (!fromNode || !toNode) {
     return `${instruction.from_node} -> ${instruction.to_node}`;

@@ -12,8 +12,8 @@ import { useNavigationFlow } from "@/state/navigation-context";
 
 export default function ArrivalScreen() {
   const router = useRouter();
-  const { goalId, route, resetAll } = useNavigationFlow();
-  const goalNode = getNodeById(goalId);
+  const { goalId, route, nodes, resetAll } = useNavigationFlow();
+  const goalNode = getNodeById(nodes, goalId);
 
   useEffect(() => {
     if (!goalId) {

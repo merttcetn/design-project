@@ -5,11 +5,13 @@ import {
   type PropsWithChildren,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
 } from "react";
 
-import { fetchRoute } from "@/services/api";
+import type { BuildingNode } from "@/data/nodes";
+import { fetchNodes, fetchRoute } from "@/services/api";
 import type { RouteResponse } from "@/types/route";
 
 type NavigationContextValue = {
@@ -17,9 +19,12 @@ type NavigationContextValue = {
   goalId: string | null;
   avoidStairs: boolean;
   route: RouteResponse | null;
+  nodes: BuildingNode[];
   currentIndex: number;
   isLoading: boolean;
+  nodesLoading: boolean;
   error: string | null;
+  nodesError: string | null;
   setStartId: (id: string | null) => void;
   setGoalId: (id: string | null) => void;
   setAvoidStairs: (value: boolean) => void;
@@ -37,9 +42,47 @@ export function NavigationProvider({ children }: PropsWithChildren) {
   const [goalId, setGoalIdState] = useState<string | null>(null);
   const [avoidStairs, setAvoidStairs] = useState(true);
   const [route, setRoute] = useState<RouteResponse | null>(null);
+  const [nodes, setNodes] = useState<BuildingNode[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [nodesLoading, setNodesLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [nodesError, setNodesError] = useState<string | null>(null);
+
+  useEffect(() => {
+    let active = true;
+
+    fetchNodes()
+      .then((result) => {
+        if (!active) {
+          return;
+        }
+
+        setNodes(result);
+        setNodesError(null);
+      })
+      .catch((nodeError) => {
+        if (!active) {
+          return;
+        }
+
+        setNodes([]);
+        setNodesError(
+          nodeError instanceof Error
+            ? nodeError.message
+            : "Konumlar yüklenemedi.",
+        );
+      })
+      .finally(() => {
+        if (active) {
+          setNodesLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const resetRoute = useCallback(() => {
     setRoute(null);
@@ -114,9 +157,12 @@ export function NavigationProvider({ children }: PropsWithChildren) {
       goalId,
       avoidStairs,
       route,
+      nodes,
       currentIndex,
       isLoading,
+      nodesLoading,
       error,
+      nodesError,
       setStartId,
       setGoalId,
       setAvoidStairs,
@@ -133,6 +179,9 @@ export function NavigationProvider({ children }: PropsWithChildren) {
       error,
       goalId,
       isLoading,
+      nodes,
+      nodesError,
+      nodesLoading,
       requestRoute,
       resetAll,
       resetRoute,

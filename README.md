@@ -23,7 +23,7 @@ Kenar verilerinden bir adjacency list grafı oluşturup Dijkstra algoritmasıyla
 ├── prompts/                # LLM prompt şablonları
 ├── backend/                # FastAPI backend
 │   ├── main.py             # FastAPI app, CORS, static files
-│   ├── router.py           # /api/route endpoint'i
+│   ├── router.py           # /api/nodes ve /api/route endpoint'leri
 │   ├── dev_router.py       # Opt-in geliştirme endpoint'leri
 │   ├── models.py           # Pydantic request/response modelleri
 │   ├── config.py           # Environment ve path ayarları
@@ -31,7 +31,7 @@ Kenar verilerinden bir adjacency list grafı oluşturup Dijkstra algoritmasıyla
 ├── frontend/               # Next.js web frontend
 │   ├── src/app/            # App Router sayfaları
 │   ├── src/components/     # UI bileşenleri
-│   ├── src/data/           # Frontend node verileri
+│   ├── src/data/           # Node listeleme/formatlama helper'ları
 │   ├── public/             # Statik asset'ler
 │   └── package.json        # Frontend bağımlılıkları ve script'leri
 ├── test_navigator.py       # Rota bulma testleri
@@ -120,6 +120,14 @@ curl -X POST http://127.0.0.1:8000/api/route \
   -d '{"start":"ZEMIN_KAT_30","goal":"ZEMIN_KAT_34","avoid_stairs":true}'
 ```
 
+Frontend'in kullandığı konum listesini test etmek için:
+
+```bash
+curl http://127.0.0.1:8000/api/nodes
+```
+
+`/api/nodes`, repo kökündeki `nodes/` dosyalarını backend üzerinden okuyup frontend'e sıralı konum listesi olarak döndürür.
+
 `MINIMAX_API_KEY` tanımlı değilken beklenen response formatı:
 
 ```json
@@ -180,6 +188,8 @@ Frontend API adresi varsayılan olarak `http://127.0.0.1:8000` değerini kullan�
 ```bash
 NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000
 ```
+
+Web arayüzü konum listesini `/api/nodes`, rota hesaplamasını `/api/route` üzerinden alır. Bu yüzden frontend'i kullanırken backend'in ayakta olması gerekir.
 
 Frontend doğrulama komutları:
 
@@ -266,7 +276,9 @@ Repo `.gitignore` ve `frontend/.gitignore` ile şu dosyalar dışarıda bırakı
 | `graph.json` | `build_graph.py` ile yeniden üretilebilen çıktı |
 | `frontend/node_modules/` | npm bağımlılıkları |
 | `frontend/.next/`, `frontend/out/`, `frontend/build/` | Next.js build/dev çıktıları |
+| `frontend/next-env.d.ts` | Next.js tarafından yeniden üretilebilen TypeScript ortam dosyası |
 | `frontend/.playwright-cli/` | Lokal Playwright doğrulama çıktıları |
+| `.claude/`, `.vscode/`, `.idea/`, `.cursor/` | Lokal editör/ajan ayarları |
 
 ## Testleri Çalıştırma
 

@@ -8,12 +8,7 @@ import { useRouter } from "next/navigation";
 import { NodeSelector } from "@/components/NodeSelector";
 import { PrimaryButton } from "@/components/PrimaryButton";
 import { ScreenShell } from "@/components/ScreenShell";
-import {
-  buildingNodes,
-  getNodeById,
-  getNodeSubtitle,
-  getNodeTitle,
-} from "@/data/nodes";
+import { getNodeById, getNodeSubtitle, getNodeTitle } from "@/data/nodes";
 import { useNavigationFlow } from "@/state/navigation-context";
 
 const fadeIn = {
@@ -28,8 +23,14 @@ const fadeUp = {
 
 export default function HomeScreen() {
   const router = useRouter();
-  const { startId, setStartId } = useNavigationFlow();
-  const selectedNode = getNodeById(startId);
+  const { startId, nodes, nodesLoading, nodesError, setStartId } =
+    useNavigationFlow();
+  const selectedNode = getNodeById(nodes, startId);
+  const nodeStatusText = nodesLoading
+    ? "Konumlar yükleniyor"
+    : nodesError
+      ? "Konumlar yüklenemedi"
+      : `${nodes.length} konum hazır`;
 
   return (
     <ScreenShell
@@ -37,7 +38,9 @@ export default function HomeScreen() {
       footer={
         <PrimaryButton
           title="Devam Et"
-          disabled={!startId}
+          disabled={
+            !startId || nodesLoading || Boolean(nodesError) || nodes.length === 0
+          }
           onClick={() => router.push("/destination")}
           icon={<ArrowRight size={19} />}
         />
@@ -65,7 +68,7 @@ export default function HomeScreen() {
             Hastane Navigasyon
           </p>
           <p className="text-[13px] leading-[18px] text-muted-light">
-            {buildingNodes.length} konum hazır
+            {nodeStatusText}
           </p>
         </div>
       </motion.div>
@@ -99,6 +102,9 @@ export default function HomeScreen() {
           label="Başlangıç (A)"
           placeholder="Başlangıç konumu seçin"
           value={startId}
+          nodes={nodes}
+          loading={nodesLoading}
+          error={nodesError}
           onChange={setStartId}
         />
       </motion.div>

@@ -17,6 +17,9 @@ type NodeSelectorProps = {
   label: string;
   placeholder: string;
   value: string | null;
+  nodes: BuildingNode[];
+  loading?: boolean;
+  error?: string | null;
   onChange: (id: string) => void;
 };
 
@@ -24,13 +27,22 @@ export function NodeSelector({
   label,
   placeholder,
   value,
+  nodes,
+  loading = false,
+  error = null,
   onChange,
 }: NodeSelectorProps) {
   const [visible, setVisible] = useState(false);
   const [query, setQuery] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
-  const selectedNode = getNodeById(value);
-  const sections = useMemo(() => getNodeSections(query), [query]);
+  const selectedNode = getNodeById(nodes, value);
+  const sections = useMemo(() => getNodeSections(nodes, query), [nodes, query]);
+  const disabled = loading || Boolean(error) || nodes.length === 0;
+  const fallbackMessage = loading
+    ? "Konumlar yükleniyor."
+    : error
+      ? "Konumlar yüklenemedi."
+      : "Eşleşen konum bulunamadı.";
 
   useEffect(() => {
     if (!visible) {
@@ -68,8 +80,9 @@ export function NodeSelector({
       </label>
       <button
         type="button"
+        disabled={disabled}
         onClick={() => setVisible(true)}
-        className="flex min-h-20 w-full items-center gap-3 rounded-[20px] bg-surface p-4 text-left shadow-panel transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary active:opacity-75"
+        className="flex min-h-20 w-full items-center gap-3 rounded-[20px] bg-surface p-4 text-left shadow-panel transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary active:opacity-75 disabled:cursor-not-allowed disabled:opacity-65"
       >
         <span className="flex size-[46px] shrink-0 items-center justify-center rounded-[14px] bg-primary-light">
           <MapPin size={20} className="text-primary-dark" />
@@ -81,16 +94,29 @@ export function NodeSelector({
               !selectedNode && "text-muted",
             )}
           >
-            {selectedNode ? getNodeTitle(selectedNode) : placeholder}
+            {selectedNode
+              ? getNodeTitle(selectedNode)
+              : loading
+                ? "Konumlar yükleniyor"
+                : error
+                  ? "Konumlar yüklenemedi"
+                  : placeholder}
           </span>
           <span className="block truncate text-[13px] leading-[18px] text-muted-light">
             {selectedNode
               ? getNodeSubtitle(selectedNode)
-              : "Kat, bölüm veya oda adıyla arayın"}
+              : error
+                ? error
+                : "Kat, bölüm veya oda adıyla arayın"}
           </span>
         </span>
         <ChevronDown size={22} className="shrink-0 text-muted" />
       </button>
+      {error ? (
+        <p className="text-[13px] font-medium leading-[18px] text-error">
+          {error}
+        </p>
+      ) : null}
 
       <AnimatePresence>
         {visible ? (
@@ -137,6 +163,7 @@ export function NodeSelector({
                   ref={searchRef}
                   type="search"
                   autoCorrect="off"
+                  disabled={disabled}
                   placeholder="Bölüm, kat veya konum ara"
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
@@ -184,7 +211,7 @@ export function NodeSelector({
                   ))
                 ) : (
                   <p className="py-12 text-center text-[15px] leading-[21px] text-muted">
-                    Eşleşen konum bulunamadı.
+                    {fallbackMessage}
                   </p>
                 )}
               </div>
