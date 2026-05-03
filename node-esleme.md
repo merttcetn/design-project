@@ -24,6 +24,7 @@ Zemin kat: **Mert Cetin**
 | 15 | `ZEMIN_KAT_74` | Kadın doğum asansör ve merdiven | ↔ | `KAT_1_57` | dogumhane merdiven | merdiven | |
 | 16 | `ZEMIN_KAT_74` | Kadın doğum asansör ve merdiven | ↔ | `KAT_1_57_1` | dogumhane asansör | asansör | |
 
+
 ## Bekleyen Kararlar
 
 - [ ] **#8** — `ZEMIN_KAT_36` ve `ZEMIN_KAT_42` ikisi de `KAT_1_10`'a bağlanıyor. Zemin katta aynı merdiven boşluğunun iki girişi var mı? Emin olunmadı.
@@ -42,3 +43,45 @@ Zemin kat karşılığı bulunamayan, Azra'nın girmesi gereken node'lar:
 | `KAT_1_29_1` | Beyin Cerrahi merdiven | İşlevi KAT_1_28 üstlendi — `diger_katlara_gecis` kaldırıldı |
 | `KAT_1_51` | Plastik Cerrahi asansor | Planda asansör yok — `diger_katlara_gecis` kaldırıldı |
 | `KAT_1_61` | dogumhane merdiven | Zemin kattan geçiş yok — boşta bırakıldı |
+
+
+# 3. Kat — 4. Kat Node Eşleme
+
+3. kat: **Bora Dere**
+4. kat: **Azra Sena Kansu**
+
+| # | Zemin Kat | Açıklama | ↔ | Kat 1 | Açıklama | Tip | Not |
+|---|---|---|---|---|---|---|---|
+| 1 | `KAT_3_1` | Nefroloji asansör | ↔ | `KAT_4_1` | cocuk ruh sagligi asansör | asansör | |
+| 2 | `KAT_3_2` | Nefroloji merdiven | ↔ | `KAT_4_2` | cocuk ruh sagligi merdiven | merdiven | |
+| 3 | `KAT_3_6` | Endokrin asansör | ↔ | `KAT_4_6` | cocuk ruh sagligi asansör | asansör | |
+| 4 | `KAT_3_11` | Enstitü dergi merdiven | ↔ | `KAT_4_11` | cocuk ruh sagligi merdiven | merdiven | |
+| 5 | `KAT_3_13` | KBB merdiven | ↔ | `KAT_4_25` | Psikiyatri merdiven | merdiven | |
+| 6 | `KAT_3_14` | KBB asansör | ↔ | `KAT_4_26` | Psikiyatri asansör | asansör | |
+| 7 | `KAT_3_21` | Genel cerrahi asansör | ↔ | `KAT_4_33` | kalp damar asansör | asansör | |
+| 8 | `KAT_3_22` | Genel cerrahi merdiven | ↔ | `KAT_4_32` | kalp damar merdiven | merdiven | |
+| 9 | `KAT_3_27` | Çocuk kalp damar merdiven | ↔ | `KAT_4_26` | cocuk servisi merdiven | merdiven | |
+| 10 | `KAT_3_29` | Çocuk kalp damar merdiven | ↔ | `KAT_4_22` | cocuk ruh sagligi merdiven | merdiven | |
+| 11 | `KAT_3_30` | Çocuk kalp damar asansör | ↔ | `KAT_4_21` | cocuk servisi asansör | asansör | |
+| 12 | `KAT_3_33` | Genel cerrahi asansör | ↔ | `KAT_4_39` | nöroloji asansör | asansör | |
+| 13 | `KAT_3_34` | Genel cerrahi merdiven | ↔ | `KAT_4_40` | nöroloji merdiven | merdiven | |
+| 14 | `KAT_3_37` | Doğum servisi merdiven | ↔ | `KAT_4_50` | Üroloji merdiven | merdiven | |
+| 15 | `KAT_3_39` | Doğum servisi asansör | ↔ | `KAT_4_56` | Üroloji asansör | asansör | |
+| 16 | `KAT_3_40` | Doğum servisi merdiven | ↔ | `KAT_4_55` | Üroloji merdiven | merdiven | |
+| 17 | `KAT_3_26` | Doğum servisi merdiven | ↔ | `KAT_4_48` | nöroloji merdiven | merdiven | |
+| 18 | `KAT_3_45` | Yanık asansör | ↔ | `KAT_4_43` | nöroloji asansör | asansör | |
+| 19 | `KAT_3_48` | Yanık merdiven | ↔ | `KAT_4_44` | nöroloji merdiven | merdiven | |
+| 20 | `KAT_3_54` | Giriş merdiven | ↔ | `KAT_4_62` | romatoloji merdiven | merdiven | |
+| 21 | `KAT_3_78` | Kardiyoloji asansör | ↔ | `KAT_4_68` | cocuk ruh sagligi asansör | asansör | |
+| 22 | `KAT_3_79` | Kardiyoloji merdiven | ↔ | `KAT_4_67` | cocuk ruh sagligi merdiven | merdiven | |
+
+
+## Eşlenmemiş Kat 4 Node'ları
+
+4. katta karşılığı bulunmayan, Azra'nın girmesi gereken node'lar:
+
+| Node | Açıklama |
+|---|---|
+| `KAT_3_10` | Enstitü dergi asansör | 4. katta karşılığı görünmüyor — eşleme yok |
+| `KAT_3_64` | Nefroloji asansör | 4. katta karşılığı görünmüyor — eşleme yok |
+| `KAT_3_72` | Giriş merdiven | 4. katta döner sermayenin hemen alıntdaki merdiven — eşleme yok |
