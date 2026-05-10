@@ -45,6 +45,33 @@ Zemin kat karşılığı bulunamayan, Azra'nın girmesi gereken node'lar:
 | `KAT_1_61` | dogumhane merdiven | Zemin kattan geçiş yok — boşta bırakıldı |
 
 
+# 1. Kat — 2. Kat Node Eşleme
+
+1. kat: **Azra Sena Kansu**
+2. kat: **Azra Sena Kansu**
+
+✓ = `diger_katlara_gecis: true` | ✗ = false
+
+| # | Kat 1 | Açıklama | ↔ | Kat 2 | Açıklama | Tip |
+|---|---|---|---|---|---|---|
+| 1 | `KAT_1_3` | Kardiyoloji merdiven | ↔ | `KAT_2_1` | Alerji ve Ergen Sağlığı merdiven | merdiven |
+| 2 | `KAT_1_8` | Kardiyoloji merdiven | ↔ | `KAT_2_5` | Alerji ve Ergen Sağlığı merdiven | merdiven |
+| 3 | `KAT_1_10` | Çocuk Hastalıkları merdiven | ↔ | `KAT_2_11` | Baş Asistanlık merdiven | merdiven |
+| 4 | `KAT_1_18` | Radyoloji merdiven | ↔ | `KAT_2_15` | 3. Blok merdiven | merdiven |
+| 5 | `KAT_1_19_1` | Beyin Cerrahi asansör | ↔ | `KAT_2_16` | 3. Blok asansör | asansör |
+| 6 | `KAT_1_19` | Beyin Cerrahi merdiven | ↔ | `KAT_2_17` | 3. Blok merdiven | merdiven |
+| 7 | `KAT_1_22` | Beyin Cerrahi merdiven | ↔ | `KAT_2_20` | Ç. Ortopedi - Üroloji merdiven | merdiven |
+| 8 | `KAT_1_29_2` | Beyin Cerrahi asansör | ↔ | `KAT_2_24` | 5. Blok asansör | asansör |
+| 9 | `KAT_1_29_1` | Beyin Cerrahi merdiven | ↔ | `KAT_2_25` | 5. Blok merdiven | merdiven |
+| 10 | `KAT_1_51` | Plastik Cerrahi asansör | ↔ | `KAT_2_27` | Göz asansör | asansör |
+| 11 | `KAT_1_54` | Plastik Cerrahi merdiven | ↔ | `KAT_2_30` | Göz merdiven | merdiven |
+| 12 | `KAT_1_32` | Beyin Cerrahi asansör | ↔ | `KAT_2_35` | 6. Blok asansör | asansör |
+| 13 | `KAT_1_33` | Beyin Cerrahi merdiven | ↔ | `KAT_2_36` | 6. Blok merdiven | merdiven |
+| 14 | `KAT_1_36` | Beyin Cerrahi AD merdiven | ↔ | `KAT_2_37` | 6. Blok merdiven | merdiven |
+| 15 | `KAT_1_50` | Göğüs Hastalıkları merdiven | ↔ | `KAT_2_41` | Beyin Cerrahi, Dermatoloji merdiven | merdiven |
+| 16 | `KAT_1_57` | Doğumhane merdiven | ↔ | `KAT_2_45` | Kadın Doğum merdiven | merdiven |
+
+
 # 3. Kat — 4. Kat Node Eşleme
 
 3. kat: **Bora Dere**

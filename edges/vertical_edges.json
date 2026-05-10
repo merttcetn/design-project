@@ -1,242 +1,466 @@
 {
-  "edges": [
-    {
-      "from": "KAT_3_8",
-      "to": "KAT_1_8",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata inin",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_8",
-      "to": "KAT_3_8",
-      "weight": 1,
-      "instruction": "Asansör ile 3. kata çıkın",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_5",
-      "to": "KAT_1_35",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_35",
-      "to": "ZEMIN_KAT_5",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_6",
-      "to": "KAT_1_36",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_36",
-      "to": "ZEMIN_KAT_6",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_9",
-      "to": "KAT_1_33",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_33",
-      "to": "ZEMIN_KAT_9",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_11",
-      "to": "KAT_1_32",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_32",
-      "to": "ZEMIN_KAT_11",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_14",
-      "to": "KAT_1_29_2",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_29_2",
-      "to": "ZEMIN_KAT_14",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_14",
-      "to": "KAT_1_29_1",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_29_1",
-      "to": "ZEMIN_KAT_14",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_29",
-      "to": "KAT_1_54",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_54",
-      "to": "ZEMIN_KAT_29",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_36",
-      "to": "KAT_1_10",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_10",
-      "to": "ZEMIN_KAT_36",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_50",
-      "to": "KAT_1_19",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_19",
-      "to": "ZEMIN_KAT_50",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_65",
-      "to": "KAT_1_8",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_8",
-      "to": "ZEMIN_KAT_65",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_60",
-      "to": "KAT_1_4",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_4",
-      "to": "ZEMIN_KAT_60",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_58",
-      "to": "KAT_1_3",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_3",
-      "to": "ZEMIN_KAT_58",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_64",
-      "to": "KAT_1_7",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_7",
-      "to": "ZEMIN_KAT_64",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    },
-    {
-      "from": "ZEMIN_KAT_71",
-      "to": "KAT_1_50",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_50",
-      "to": "ZEMIN_KAT_71",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_74",
-      "to": "KAT_1_57",
-      "weight": 1,
-      "instruction": "Merdivenlerden 1. kata çıkın.",
-      "type": "stairs"
-    },
-    {
-      "from": "KAT_1_57",
-      "to": "ZEMIN_KAT_74",
-      "weight": 1,
-      "instruction": "Merdivenlerden zemin kata inin.",
-      "type": "stairs"
-    },
-    {
-      "from": "ZEMIN_KAT_74",
-      "to": "KAT_1_57_1",
-      "weight": 1,
-      "instruction": "Asansör ile 1. kata çıkın.",
-      "type": "elevator"
-    },
-    {
-      "from": "KAT_1_57_1",
-      "to": "ZEMIN_KAT_74",
-      "weight": 1,
-      "instruction": "Asansör ile zemin kata inin.",
-      "type": "elevator"
-    }
-  ]
+    "edges": [
+        {
+            "from": "KAT_3_8",
+            "to": "KAT_1_8",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata inin",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_8",
+            "to": "KAT_3_8",
+            "weight": 1,
+            "instruction": "Asansör ile 3. kata çıkın",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_5",
+            "to": "KAT_1_35",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_35",
+            "to": "ZEMIN_KAT_5",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_6",
+            "to": "KAT_1_36",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_36",
+            "to": "ZEMIN_KAT_6",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_9",
+            "to": "KAT_1_33",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_33",
+            "to": "ZEMIN_KAT_9",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_11",
+            "to": "KAT_1_32",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_32",
+            "to": "ZEMIN_KAT_11",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_14",
+            "to": "KAT_1_29_2",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_29_2",
+            "to": "ZEMIN_KAT_14",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_14",
+            "to": "KAT_1_29_1",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_29_1",
+            "to": "ZEMIN_KAT_14",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_29",
+            "to": "KAT_1_54",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_54",
+            "to": "ZEMIN_KAT_29",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_36",
+            "to": "KAT_1_10",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_10",
+            "to": "ZEMIN_KAT_36",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_50",
+            "to": "KAT_1_19",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_19",
+            "to": "ZEMIN_KAT_50",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_65",
+            "to": "KAT_1_8",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_8",
+            "to": "ZEMIN_KAT_65",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_60",
+            "to": "KAT_1_4",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_4",
+            "to": "ZEMIN_KAT_60",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_58",
+            "to": "KAT_1_3",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_3",
+            "to": "ZEMIN_KAT_58",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_64",
+            "to": "KAT_1_7",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_7",
+            "to": "ZEMIN_KAT_64",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "ZEMIN_KAT_71",
+            "to": "KAT_1_50",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_50",
+            "to": "ZEMIN_KAT_71",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_74",
+            "to": "KAT_1_57",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_57",
+            "to": "ZEMIN_KAT_74",
+            "weight": 1,
+            "instruction": "Merdivenlerden zemin kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "ZEMIN_KAT_74",
+            "to": "KAT_1_57_1",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_57_1",
+            "to": "ZEMIN_KAT_74",
+            "weight": 1,
+            "instruction": "Asansör ile zemin kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_2_1",
+            "to": "KAT_1_3",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_3",
+            "to": "KAT_2_1",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_5",
+            "to": "KAT_1_8",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_8",
+            "to": "KAT_2_5",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_11",
+            "to": "KAT_1_10",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_10",
+            "to": "KAT_2_11",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_15",
+            "to": "KAT_1_18",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_18",
+            "to": "KAT_2_15",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_16",
+            "to": "KAT_1_19_1",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_19_1",
+            "to": "KAT_2_16",
+            "weight": 1,
+            "instruction": "Asansör ile 2. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_2_17",
+            "to": "KAT_1_19",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_19",
+            "to": "KAT_2_17",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_20",
+            "to": "KAT_1_22",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_22",
+            "to": "KAT_2_20",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_24",
+            "to": "KAT_1_29_2",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_29_2",
+            "to": "KAT_2_24",
+            "weight": 1,
+            "instruction": "Asansör ile 2. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_2_25",
+            "to": "KAT_1_29_1",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_29_1",
+            "to": "KAT_2_25",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_27",
+            "to": "KAT_1_51",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_51",
+            "to": "KAT_2_27",
+            "weight": 1,
+            "instruction": "Asansör ile 2. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_2_30",
+            "to": "KAT_1_54",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_54",
+            "to": "KAT_2_30",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_35",
+            "to": "KAT_1_32",
+            "weight": 1,
+            "instruction": "Asansör ile 1. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_1_32",
+            "to": "KAT_2_35",
+            "weight": 1,
+            "instruction": "Asansör ile 2. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_2_36",
+            "to": "KAT_1_33",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_33",
+            "to": "KAT_2_36",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_37",
+            "to": "KAT_1_36",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_36",
+            "to": "KAT_2_37",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_41",
+            "to": "KAT_1_50",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_50",
+            "to": "KAT_2_41",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_2_45",
+            "to": "KAT_1_57",
+            "weight": 1,
+            "instruction": "Merdivenlerden 1. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_1_57",
+            "to": "KAT_2_45",
+            "weight": 1,
+            "instruction": "Merdivenlerden 2. kata çıkın.",
+            "type": "stairs"
+        }
+    ]
 }

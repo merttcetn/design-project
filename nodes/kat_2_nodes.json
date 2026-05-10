@@ -4,7 +4,8 @@
             "id": "KAT_2_1",
             "kat": 2,
             "bolum": "Alerji ve Ergen Sağlığı",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_2",
@@ -28,7 +29,8 @@
             "id": "KAT_2_5",
             "kat": 2,
             "bolum": "Alerji ve Ergen Sağlığı",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_6",
@@ -64,7 +66,8 @@
             "id": "KAT_2_11",
             "kat": 2,
             "bolum": "Baş Asistanlık",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_12",
@@ -94,19 +97,22 @@
             "id": "KAT_2_15",
             "kat": 2,
             "bolum": "3. Blok",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_16",
             "kat": 2,
             "bolum": "3. Blok",
-            "description": "Asansör"
+            "description": "Asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_17",
             "kat": 2,
             "bolum": "3. Blok",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_18",
@@ -124,7 +130,8 @@
             "id": "KAT_2_20",
             "kat": 2,
             "bolum": "Ç. Ortopedi - Üroloji",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_21",
@@ -148,13 +155,15 @@
             "id": "KAT_2_24",
             "kat": 2,
             "bolum": "5. Blok",
-            "description": "Asansör"
+            "description": "Asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_25",
             "kat": 2,
             "bolum": "5. Blok",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_26",
@@ -166,7 +175,8 @@
             "id": "KAT_2_27",
             "kat": 2,
             "bolum": "Göz",
-            "description": "Asansör"
+            "description": "Asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_28",
@@ -184,7 +194,8 @@
             "id": "KAT_2_30",
             "kat": 2,
             "bolum": "Göz",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_31",
@@ -214,19 +225,22 @@
             "id": "KAT_2_35",
             "kat": 2,
             "bolum": "6. Blok",
-            "description": "Asansör"
+            "description": "Asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_36",
             "kat": 2,
             "bolum": "6. Blok",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_37",
             "kat": 2,
             "bolum": "6. Blok",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_38",
@@ -250,7 +264,8 @@
             "id": "KAT_2_41",
             "kat": 2,
             "bolum": "Beyin Cerrahi, Dermatoloji",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_42",
@@ -274,7 +289,8 @@
             "id": "KAT_2_45",
             "kat": 2,
             "bolum": "Kadın Doğum",
-            "description": "Merdiven"
+            "description": "Merdiven",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_2_46",

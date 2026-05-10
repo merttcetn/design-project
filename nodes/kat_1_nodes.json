@@ -122,6 +122,13 @@
             "diger_katlara_gecis": true
         },
         {
+            "id": "KAT_1_19_1",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
+            "description": "Beyin Cerrahi asansör",
+            "diger_katlara_gecis": true
+        },
+        {
             "id": "KAT_1_20",
             "kat": 1,
             "bolum": "Beyin Cerrahi",
