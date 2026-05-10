@@ -158,6 +158,18 @@
         },
         {
             "from": "KAT_1_19",
+            "to": "KAT_1_19_1",
+            "weight": 1,
+            "instruction": "Asansöre ilerleyin."
+        },
+        {
+            "from": "KAT_1_19_1",
+            "to": "KAT_1_19",
+            "weight": 1,
+            "instruction": "Merdivene ilerleyin."
+        },
+        {
+            "from": "KAT_1_19",
             "to": "KAT_1_20",
             "weight": 1,
             "instruction": "Düz ilerleyin."
