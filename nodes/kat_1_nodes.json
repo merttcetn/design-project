@@ -187,7 +187,15 @@
             "id": "KAT_1_29_1",
             "kat": 1,
             "bolum": "Beyin Cerrahi",
-            "description": "Beyin Cerrahi merdiven"
+            "description": "Beyin Cerrahi merdiven",
+            "diger_katlara_gecis": true
+        },
+        {
+            "id": "KAT_1_29_2",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
+            "description": "Beyin Cerrahi asansör",
+            "diger_katlara_gecis": true
         },
         {
             "id": "KAT_1_30",
@@ -200,6 +208,12 @@
             "kat": 1,
             "bolum": "Beyin Cerrahi",
             "description": "Beyin Cerrahi koridor girişi"
+        },
+        {
+            "id": "KAT_1_31_1",
+            "kat": 1,
+            "bolum": "Beyin Cerrahi",
+            "description": "Beyin Cerrahi koridor"
         },
         {
             "id": "KAT_1_32",
