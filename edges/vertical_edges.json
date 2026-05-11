@@ -461,6 +461,314 @@
             "weight": 1,
             "instruction": "Merdivenlerden 2. kata çıkın.",
             "type": "stairs"
+        },
+        {
+            "from": "KAT_3_1",
+            "to": "KAT_4_1",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_1",
+            "to": "KAT_3_1",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_2",
+            "to": "KAT_4_2",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_2",
+            "to": "KAT_3_2",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_6",
+            "to": "KAT_4_6",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_6",
+            "to": "KAT_3_6",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_11",
+            "to": "KAT_4_11",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_11",
+            "to": "KAT_3_11",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_13",
+            "to": "KAT_4_25",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_25",
+            "to": "KAT_3_13",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_14",
+            "to": "KAT_4_26",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_26",
+            "to": "KAT_3_14",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_21",
+            "to": "KAT_4_33",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_33",
+            "to": "KAT_3_21",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_22",
+            "to": "KAT_4_32",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_32",
+            "to": "KAT_3_22",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_27",
+            "to": "KAT_4_26",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_26",
+            "to": "KAT_3_27",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_29",
+            "to": "KAT_4_22",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_22",
+            "to": "KAT_3_29",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_30",
+            "to": "KAT_4_21",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_21",
+            "to": "KAT_3_30",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_33",
+            "to": "KAT_4_39",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_39",
+            "to": "KAT_3_33",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_34",
+            "to": "KAT_4_40",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_40",
+            "to": "KAT_3_34",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_37",
+            "to": "KAT_4_50",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_50",
+            "to": "KAT_3_37",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_39",
+            "to": "KAT_4_56",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_56",
+            "to": "KAT_3_39",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_40",
+            "to": "KAT_4_55",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_55",
+            "to": "KAT_3_40",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_26",
+            "to": "KAT_4_48",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_48",
+            "to": "KAT_3_26",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_45",
+            "to": "KAT_4_43",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_43",
+            "to": "KAT_3_45",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_3_48",
+            "to": "KAT_4_44",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_44",
+            "to": "KAT_3_48",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_54",
+            "to": "KAT_4_62",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_62",
+            "to": "KAT_3_54",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_79",
+            "to": "KAT_4_67",
+            "weight": 1,
+            "instruction": "Merdivenle 4. kata çıkın.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_4_67",
+            "to": "KAT_3_79",
+            "weight": 1,
+            "instruction": "Merdivenle 3. kata inin.",
+            "type": "stairs"
+        },
+        {
+            "from": "KAT_3_78",
+            "to": "KAT_4_68",
+            "weight": 1,
+            "instruction": "Asansörle 4. kata çıkın.",
+            "type": "elevator"
+        },
+        {
+            "from": "KAT_4_68",
+            "to": "KAT_3_78",
+            "weight": 1,
+            "instruction": "Asansörle 3. kata inin.",
+            "type": "elevator"
         }
     ]
 }
