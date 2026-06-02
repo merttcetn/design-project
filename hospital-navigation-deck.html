@@ -70,12 +70,28 @@ body {
   width: 0%; transition: width .25s cubic-bezier(.2,.7,.2,1);
 }
 
-/* ── Slide deck ── */
-.deck { position: relative; width: 100%; height: 100vh; }
+/* ── Slide deck ──
+   Each slide renders on a fixed 16:9 design canvas (.deck-stage) that
+   scales uniformly to fit the viewport. Inside slides we use container
+   query units (cqi/cqh) instead of vw/vh so type stays at a stable
+   visual size on every slide regardless of viewport aspect. */
+.deck {
+  position: fixed; inset: 0;
+  display: grid; place-items: center;
+  overflow: hidden;
+  background: var(--surface-1);
+}
+.deck-stage {
+  position: relative;
+  width: min(100vw, calc(100vh * 16 / 9));
+  height: min(100vh, calc(100vw * 9 / 16));
+  container-type: size;
+  container-name: stage;
+}
 .slide {
   position: absolute; inset: 0;
   display: none;
-  padding: clamp(36px, 4.5vw, 72px) clamp(40px, 5vw, 96px) 72px;
+  padding: clamp(36px, 4.5cqi, 72px) clamp(40px, 5cqi, 96px) 72px;
   overflow: hidden;
   background: var(--surface-1);
   color: var(--paper);
@@ -118,7 +134,7 @@ body {
   position: fixed; left: 0; right: 0; bottom: 0;
   display: flex; justify-content: space-between; align-items: center;
   padding: 14px clamp(40px, 5vw, 96px);
-  font-family: var(--mono); font-size: 11.5px;
+  font-family: var(--mono); font-size: 12px;
   letter-spacing: .18em; text-transform: uppercase;
   pointer-events: none; z-index: 40;
 }
@@ -150,7 +166,7 @@ body[data-bg="red"]  .chrome .hint  { color: var(--red-100); }
 
 h1.hero {
   font-family: var(--sans); font-weight: 800;
-  font-size: clamp(50px, 7vw, 104px);
+  font-size: clamp(56px, 6.8cqi, 104px);
   line-height: .94; letter-spacing: -.045em;
   margin: 0;
   color: var(--paper);
@@ -164,7 +180,7 @@ h1.hero em {
 
 h2.section {
   font-family: var(--sans); font-weight: 700;
-  font-size: clamp(36px, 4.4vw, 62px);
+  font-size: clamp(36px, 4.4cqi, 62px);
   line-height: 1.04; letter-spacing: -.025em;
   margin: 0;
   color: var(--paper);
@@ -176,7 +192,7 @@ h2.section em {
 
 p.lede {
   font-family: var(--sans);
-  font-size: clamp(17px, 1.45vw, 21px);
+  font-size: clamp(17px, 1.45cqi, 21px);
   line-height: 1.55;
   color: var(--paper-70);
   margin: 18px 0 0;
@@ -250,7 +266,7 @@ p.lede {
 .stats > div:first-child { padding-left: 0; border-left: 0; }
 .stats .num {
   font-family: var(--mono); font-weight: 500;
-  font-size: clamp(48px, 5.5vw, 88px);
+  font-size: clamp(48px, 5.5cqi, 88px);
   line-height: 1.0; letter-spacing: -.04em;
   color: var(--paper);
   font-variant-numeric: tabular-nums;
@@ -309,7 +325,7 @@ p.lede {
 /* ── 2-col layout ── */
 .two-col {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: clamp(28px, 3vw, 56px);
+  gap: clamp(28px, 3cqi, 56px);
   flex: 1; min-height: 0; align-content: start;
 }
 .two-col.uneven { grid-template-columns: 1.3fr 1fr; }
@@ -485,7 +501,13 @@ p.lede {
 @media print {
   html, body { overflow: visible; height: auto; }
   body { background: var(--surface-1); }
-  .deck { position: static; display: block; }
+  .deck { position: static; display: block; overflow: visible; }
+  .deck-stage {
+    width: 13.333in;
+    aspect-ratio: auto;
+    max-width: none; max-height: none;
+    container-type: size;
+  }
   .slide {
     position: static; display: flex !important;
     width: 13.333in; height: 7.5in;
@@ -502,6 +524,7 @@ p.lede {
 <div class="progress" id="progress"></div>
 
 <main class="deck">
+<div class="deck-stage">
 
 <!-- SLIDE 1 — TITLE -->
 <section class="slide is-active" data-bg="paper">
@@ -564,7 +587,7 @@ p.lede {
   <div class="eyebrow"><span class="num">02</span>Research Question</div>
   <div class="two-col uneven" style="flex:1;">
     <div>
-      <h2 class="section" style="font-size:clamp(26px,2.7vw,38px); line-height:1.2;">
+      <h2 class="section" style="font-size:clamp(26px,2.7cqi,38px); line-height:1.2;">
         Can <em>deterministic graph-search</em> + <em>schema-constrained LLMs</em>
         produce navigation that is <em>provably correct, fluent,
         landmark-anchored</em>, and <em>accessibility-aware</em>?
@@ -952,7 +975,7 @@ p.lede {
   <div class="eyebrow"><span class="num">08</span>Demo</div>
   <div class="two-col" style="margin-top:18px; flex:1;">
     <div>
-      <h2 class="section" style="font-size:clamp(28px,3vw,40px);">Six steps, one journey.</h2>
+      <h2 class="section" style="font-size:clamp(28px,3cqi,40px);">Six steps, one journey.</h2>
       <p class="lede">Real screenshots from the deployed Next.js client.
         Search → toggle → compute → walk → arrive.</p>
       <ol class="list" style="margin-top:28px;">
@@ -1091,6 +1114,7 @@ p.lede {
   </div>
 </section>
 
+</div>
 </main>
 
 <div class="grain" aria-hidden="true"></div>
