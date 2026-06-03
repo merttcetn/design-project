@@ -1013,19 +1013,19 @@ p.lede {
       <div style="font-size:20px; font-weight:700; letter-spacing:-.015em; margin-bottom:14px;">
         Dijkstra on a small, weighted graph.
       </div>
-      <div class="code"><span class="c1">weight(edge) = base_cost</span>
-<span class="c1">if avoid_stairs and edge.kind == 'stairs':</span>
-<span class="c2">    weight += 10^9   # near-infinite soft penalty</span></div>
-      <ul style="list-style:none; padding:0; margin:18px 0 0; display:flex; flex-direction:column; gap:10px;">
+      <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px;">
         <li style="display:grid; grid-template-columns:14px 1fr; align-items:baseline;">
           <span style="width:6px; height:6px; background:var(--red-700); border-radius:1px;"></span>
-          <span style="font-size:clamp(15px,1.1cqi,19px); color:var(--paper-70);">Graph is small (≤ 300 nodes); A* heuristic gains nothing.</span></li>
+          <span style="font-size:clamp(17.5px,1.32cqi,24px); line-height:1.55; color:var(--paper-70);">Accessibility = soft penalty on stair edges (no re-architecting).</span></li>
         <li style="display:grid; grid-template-columns:14px 1fr; align-items:baseline;">
           <span style="width:6px; height:6px; background:var(--red-700); border-radius:1px;"></span>
-          <span style="font-size:clamp(15px,1.1cqi,19px); color:var(--paper-70);">Deterministic — same input, same path. Easy to audit.</span></li>
+          <span style="font-size:clamp(17.5px,1.32cqi,24px); line-height:1.55; color:var(--paper-70);">Graph is small (≤ 300 nodes); A* heuristic gains nothing.</span></li>
         <li style="display:grid; grid-template-columns:14px 1fr; align-items:baseline;">
           <span style="width:6px; height:6px; background:var(--red-700); border-radius:1px;"></span>
-          <span style="font-size:clamp(15px,1.1cqi,19px); color:var(--paper-70);">Accessibility weights compose without re-architecting.</span></li>
+          <span style="font-size:clamp(17.5px,1.32cqi,24px); line-height:1.55; color:var(--paper-70);">Deterministic — same input, same path. Easy to audit.</span></li>
+        <li style="display:grid; grid-template-columns:14px 1fr; align-items:baseline;">
+          <span style="width:6px; height:6px; background:var(--red-700); border-radius:1px;"></span>
+          <span style="font-size:clamp(17.5px,1.32cqi,24px); line-height:1.55; color:var(--paper-70);">Accessibility weights compose without re-architecting.</span></li>
       </ul>
     </div>
     <div>
