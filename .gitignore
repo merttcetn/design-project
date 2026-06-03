@@ -40,3 +40,4 @@ dist/
 # Sistem dosyaları ve loglar
 .DS_Store
 *.log
+.gstack/
